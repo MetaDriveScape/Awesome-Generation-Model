@@ -7,6 +7,35 @@
 ## 202404
 
 ### LLM
+
+#### RHO-1: Not All Tokens Are What You Need
+
+- `Keypoints:` Reference language model； Hard tokens;
+- `Objective:` Applying the same loss to all tokens can result in wasted computation on non-beneficial tokens, possibly limiting LLM’s potential to merely mediocre intelligence.
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:` 
+        - Our findings reveal that significant loss reduction is limited to a select group of tokens during training. Many tokens are “easy tokens” that are already learned, and some are “hard tokens” that exhibit variable losses and resist convergence. These tokens can lead to numerous ineffective gradient updates；
+        - First, SLM trains a reference language model on high-quality corpora. This model establishes utility metrics to score tokens according to the desired distribution, naturally filtering out unclean and irrelevant tokens. Second, SLM uses the reference model to score each token in a corpus using its loss. Finally, we train a language model only on those tokens that exhibit a high excess loss between the reference and the training model, selectively learning the tokens that best benefit downstream applications.
+    - `Metric:`SLM improves average few-shot accuracy on GSM8k and MATH by over 16%, achieving the baseline performance 5-10x faster.
+
+</details>
+
+
+
+
+#### Megalodon Efficient LLM Pretraining and Inference with Unlimited Context Length
+
+- `Keypoints:` Exponential moving average with gated attention; LLM；Unlimited Context Length
+- `Objective:`We introduce MEGALODON, an neural architecture for efficient sequence modeling with unlimited context length.
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:`MEGALODON inherits the architecture of MEGA (exponential moving average with gated attention), and further introduces multiple technical components to improve its capability and stability, including complex exponential moving average (CEMA), timestep normalization layer, normalized attention mechanism and pre-norm with two-hop residual configuration.
+
+</details> 
+
 #### TransformerFAM: Feedback attention is working memory
 - `Keypoints:` Feedback Attention Memory (FAM)、 Working Memory in Transformers、Long-Context Processing、Efficiency and Integration
 - `Objective:`The paper aims to address the limitation of Transformers in processing long sequences due to their quadratic attention complexity. The goal is to enable Transformers to handle indefinitely long inputs by introducing a novel architecture that mimics working memory mechanisms found in the human brain.
@@ -36,6 +65,21 @@
     </details>
 ### Diffusion
 
+#### Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution
+
+- `Keypoints:` Super-resolution based on diffusion model;
+- `Objective:` improve the efficiency, quality and consistency of the super resolution;
+
+-   <details>
+    <summary>Details</summary>
+
+    - `Methods:`
+        - propose to use probability flow sampling to train the network(improve efficiency)
+        - Supervise the generation by original image and the noise instead of only by noise as the SVD does(improve consisitency, reduce the variance of the generated image, guiding it to be more and more similar to the LR)
+        - use probability flow sampling to supervise the perceptual loss between HR and LR(improve quality)
+</details>
+
+
 #### Analysis of Classifier-Free Guidance Weight Schedulers
 
 - `Keypoints:` CFG; Dynamic weight;
@@ -45,8 +89,7 @@
 
     - `Results:` Six scheduling strategies were compared, and the conclusion is that clamp-linear guidance is the most versatile.
     - `Discussion:` This paper argue that a simple clamp-linear guidance is better than a constant static guidance. The best scheduler may vary across different datasets. In fact, similar increasing guidance has proposed by MUSE from Google in January 2023.
-
-
+</details>
 
 #### Customizing Text-to-Image Diffusion with Camera Viewpoint Control
 
@@ -118,3 +161,22 @@
         - If the element itself possesses the maximum variance (condition present), we pass it as such; otherwise, we rescale the feature vector to have the same standard deviation before merging
 
     </details>
+
+
+### Diffusion Transformer
+
+#### Diffscaler: Enhancing the Generative Prowess of Diffusion Transformers
+- `Keypoints:` Parameter efficient finetuning; Incremental learning for diffusion;
+- `Objective:` This paper focuses on enabling a single pre-trained diffusion transformer model to scale across multiple datasets swiftly, allowing for the completion of diverse generative tasks using just one model.
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:`
+        - init class embeddings of a new dataset by uc embedding; 
+        - propose a Affiner module to finetune new classes; 
+        - scaling up Affiner to support multiple datasets; 
+        - Diffscaler can serve as an alternative to ControlNet. It does not use a separate network to encode conditions but directly utilizes an Affiner. However, there are no specific descriptions provided. In terms of parameters, Diffscaler adds 7M, whereas ControlNet adds 300M.
+
+
+
+</details>
