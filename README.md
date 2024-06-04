@@ -244,7 +244,7 @@ Analysis of Weekly Papers on Image and Video Generation in April 2024.
 
 </details>
 
-### Ctrl-Adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model
+### Ctrl-Adapter:An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model
 - `Keypoints:`Multi-task; ControlNet; Without training;
 - `Objective:`Allow existing controlNet to control diffusion models of different size without training again. 
 -   <details>
