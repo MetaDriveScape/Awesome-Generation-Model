@@ -8,6 +8,50 @@
 
 ### LLM
 
+#### MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding
+
+- `Keypoints:`Memory bank; Long-Term Video Understanding;
+- `Objective:`Instead of trying to process more frames simultaneously like most existing work, they propose to process videos in an online manner and store past video information in a memory bank.
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:`
+        -  Auto-regressively process video frames in an online manner;
+        - Visual Feature Extraction：we inject temporal ordering information into the frame-level features by a position embedding layer (P E);
+        - Long-term Temporal Modeling：(1) cross-attention layer, which interacts with the raw visual embedding extracted from the frozen visual encoder, and (2) self-attention layer, which models interactions within the input queries.
+        - Memory Bank Compression： we simply average the selected token features at all the spatial locations to reduce the memory bank length by 1；
+
+</details>
+
+#### MovieChat: From Dense Token to Sparse Memory for Long Video Understanding
+
+- `Keypoints:`Long video understanding; redundancy of visual tokens; Memory mechanism;
+- `Objective:`For long videos understanding, thery overcome these challenges: computation complexity, memory cost, and long-term temporal connection  by reducing the redundancy of visual tokens in the video and building a memory mechanism to pass the information among a large temporal range.
+
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:`Taking advantage of the AtkinsonShiffrin memory model, with tokens in Transformers being employed as the carriers of memory in combination with their specially designed memory mechanism:
+        - short term memory: extracted visual features by sliding window G times without further processing are used to construct short-term memory; The update strategy for short-term memory is based on the First-in-First-out (FIFO) queue;
+        - long term memory: dense tokens to the sparse memories by merging the most similar tokens in the adjacent frames following ToMe periodically; The goal is to keep RL frames after every merge operation, which also embeds rich information stored in the long-term memory.
+
+    - `Metric:`To enhance the robustness of the results, we simultaneously employ GPT-3.5 and Claude as LLM assistants, with the additional support of human blind rating; MovieChat reads more video frames. In both global mode and breakpoint mode, our method maintains a performance gain in terms of the average accuracy and score provided by LLM assistants and human blind rating;
+
+</details>
+
+#### Adapting LLaMA Decoder to Vision Transformer
+- `Keypoints:` LLaMA Decoder Adaptation;Causal Self-Attention; Soft Mask Strategy;
+- `Objective:`The research aims to adapt the LLaMA decoder-only architecture, originally designed for large language models, to the field of computer vision. The goal is to explore the potential of using this architecture for tasks such as image classification and to achieve competitive performance compared to encoder-only counterparts.
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:`The study introduces a series of modifications to align the standard ViT architecture with that of LLaMA. Key modifications include:
+        - Repositioning the class token behind image tokens using a post-sequence class token technique to address the attention collapse issue.
+        - Implementing a soft mask strategy that gradually introduces a causal mask to the self-attention, facilitating optimization.
+        - Employing causal self-attention to enhance computational efficiency and learn complex representations.
+    - `Metric:`The tailored model, iLLaMA, was evaluated on the ImageNet-1K dataset, achieving a top-1 accuracy of 75.1% with 5.7M parameters. When scaled up and pre-trained on ImageNet-21K, the model further enhanced its accuracy to 86.0%. Extensive experiments demonstrated iLLaMA's reliable properties, including calibration, shape-texture bias, quantization compatibility, ADE20K segmentation, and CIFAR transfer learning, rivaling the performance of encoder-only models.
+</details>
+
 #### RHO-1: Not All Tokens Are What You Need
 
 - `Keypoints:` Reference language model； Hard tokens;
@@ -21,9 +65,6 @@
     - `Metric:`SLM improves average few-shot accuracy on GSM8k and MATH by over 16%, achieving the baseline performance 5-10x faster.
 
 </details>
-
-
-
 
 #### Megalodon Efficient LLM Pretraining and Inference with Unlimited Context Length
 
