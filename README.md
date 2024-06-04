@@ -6,8 +6,10 @@
 
 ## 202404
 
-### LLM
 
+<font color=pink size=4 >LLM</font>
+
+<font color=pink size=2 >MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding</font>
 #### MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding
 
 - `Keypoints:`Memory bank; Long-Term Video Understanding;
