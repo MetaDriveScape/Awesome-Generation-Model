@@ -8,7 +8,9 @@
 
 ### Diffusion
 
-#### From Image to Video, what do we need in multimodal LLMs?
+```diff
++ From Image to Video, what do we need in multimodal LLMs?
+```
 > - **Keypoints:** Image LLMs, Video LLms; 
 > - **Objective:** They propose RED-VILLM, to utilize the power of Image LLMs, a Resource-Efficient Development pipeline for Video LLMs from Image LLMs, which utilizes a temporal adaptation plug-and-play structure within the image fusion module of Image LLMs. 
 > - **Method:** 
