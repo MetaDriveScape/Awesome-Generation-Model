@@ -8,6 +8,7 @@ Analysis of Weekly Papers on Image and Video Generation in May 2024.
 ### Better & Faster Large Language Models via Multi-token Prediction 
 - `Keypoints:`  LLM; Multi-token Prediction;
 - `Objective:`In this work, they suggest that training language models to predict multiple future tokens at once results leading to higher sample efficiency.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8371df83-d9c0-4087-b415-658e6304dfff" width="200" />
   <img src="https://github.com/user-attachments/assets/d6b00bb9-cf69-4af0-9543-2e9fe1c5a9f4" width="450" />
@@ -50,6 +51,7 @@ Analysis of Weekly Papers on Image and Video Generation in May 2024.
 ### Stacking Your Transformers: A Closer Look at Model Growth for Efficient LLM Pre-Training
 - `Keypoints:` Model Growth;  LLM Pre-Training;
 - `Objective:` To overcome these limitations, we first summarize existing works into four atomic growth operators to represent these growth techniques. Then we build a standardized LLMs training testbed to pre-train LLMs with four growth operators on depthwise and widthwise directions and evaluate the results with both training loss and eight evaluation metrics in Harness.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/674fde34-bc06-4ec6-8259-0d5f5f81753d" width="450" />
 </p>
@@ -88,6 +90,7 @@ Analysis of Weekly Papers on Image and Video Generation in May 2024.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ea4705d0-cc98-4ffb-b9e3-39709b4fe49a" width="450" />
 </p>
+
 -   <details>
     <summary>Details</summary>
     
@@ -103,6 +106,7 @@ Analysis of Weekly Papers on Image and Video Generation in May 2024.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d9a62649-8236-449c-8ce5-62699d02f6d8" width="450" />
 </p>
+
 -   <details>
     <summary>Details</summary>
     
@@ -118,6 +122,7 @@ Analysis of Weekly Papers on Image and Video Generation in May 2024.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b3d3d944-918b-4182-b1d7-a4e186287031" width="450" />
 </p>
+
 -   <details>
     <summary>Details</summary>
     
