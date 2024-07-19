@@ -1,7 +1,7 @@
 # Introduction
 Analysis of Weekly Papers on Image and Video Generation in May 2024.
 
-# 202405
+# 202407
 
 ## LLM
 
