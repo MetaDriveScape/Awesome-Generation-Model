@@ -28,6 +28,8 @@ Analysis of Weekly Papers on Image and Video Generation in May 2024.
 
 - `Keypoints:` Video Generation Model; Interactive Video Prediction; VQ-GAN;
 - `Objective:` To explore the development of world models that are both interactive and scalable within a GPT-like autoregressive transformer framework, and facilitate interactive behavior learning.
+- ![image](https://github.com/user-attachments/assets/9eb94149-83d9-4357-93a8-f959f5b16639)
+
 
 
 ### Stacking Your Transformers: A Closer Look at Model Growth for Efficient LLM Pre-Training
