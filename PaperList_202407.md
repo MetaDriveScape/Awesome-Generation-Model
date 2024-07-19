@@ -29,21 +29,26 @@ Analysis of Weekly Papers on Image and Video Generation in July 2024.
 
     - `Method:` The author proposes two techniques. 
         - `Independent Condition Guidance: `
-During the training process of classifier-free models, dropping conditions in a probability ratio is required. However, this increases the difficulty of learning. The authors propose to train the model with conditions throughout the process and use Independent Condition Guidance to obtain high-quality images similar to CFG. First, note that at each time step $`t`$, classifier-free guidance uses the conditional score $`\nabla_{z_t} \log p_t(z_t \mid y)`$ and the unconditional score $`\nabla_{z_t} \log p_t(z_t)`$ to guide the sampling process. Based on Bayes' theorem, we can write $`p_t(z_t \mid y) = \frac{p_t(y \mid z_t)p_t(z_t)}{p_t(y)}`$, which gives us
-```math
+During the training process of classifier-free models, dropping conditions in a probability ratio is required. However, this increases the difficulty of learning. The authors propose to train the model with conditions throughout the process and use Independent Condition Guidance to obtain high-quality images similar to CFG. First, note that at each time step $t$, classifier-free guidance uses the conditional score $\nabla_{z_t} \log p_t(z_t \mid y)$ and the unconditional score $\nabla_{z_t} \log p_t(z_t)$ to guide the sampling process. Based on Bayes' theorem, we can write $p_t(z_t \mid y) = \frac{p_t(y \mid z_t)p_t(z_t)}{p_t(y)}$, which gives us
+
+$$
 \nabla_{z_t} \log p_t(z_t \mid y) = \nabla_{z_t} \log p_t(z_t) + \nabla_{z_t} \log p_t(y \mid z_t).
-```
-Next, assume that we replace the condition with a random vector $`\hat{y}`$ that is independent of the input $`z_t`$. In this case, we have $`p_t(\hat{y} \mid z_t) = p_t(\hat{y})`$, which gives us
-```math
-        \nabla_{z_t} \log p_t(z_t \mid \hat{y}) = \nabla_{z_t} \log p_t(z_t) + \nabla_{z_t} \log p_t(\hat{y}) = \nabla_{z_t} \log p_t(z_t).
-```
+$$
+
+Next, assume that we replace the condition with a random vector $\hat{y}$ that is independent of the input $z_t$. In this case, we have $p_t(\hat{y} \mid z_t) = p_t(\hat{y})$, which gives us
+
+$$
+\nabla_{z_t} \log p_t(z_t \mid \hat{y}) = \nabla_{z_t} \log p_t(z_t) + \nabla_{z_t} \log p_t(\hat{y}) = \nabla_{z_t} \log p_t(z_t).
+$$
+
 Based on that, the authors propose to use a random condition to modulate the unconditional output of diffusion models trained with the condition.
         - `Time-step Guidance:`
-         As many conditions are embedded and added to time embedding, the author propose to calculate the model outputs for both the unaltered time-step embedding and a modified embedding, using the difference between them to inform the sampling process. Specifically, at each time step tt, we update the output using $`\tilde{t}`$ 
+         As many conditions are embedded and added to time embedding, the author propose to calculate the model outputs for both the unaltered time-step embedding and a modified embedding, using the difference between them to inform the sampling process. Specifically, at each time step tt, we update the output using $\tilde{t}$
 ```math
 \hat{D}_{\theta}(z_t, t) = D_{\theta}(z_t, \tilde{t}) + w_{\text{TSG}} \left( D_{\theta}(z_t, t) - D_{\theta}(z_t, \tilde{t}) \right),
 ```
-  where $`D_{\theta}(z_t, \tilde{t})`$ modulate the conditional embeding. The underlying idea of TSG is that modifying the time-step embedding at each step t results in denoised outputs that may either remove too little or too much noise.
+
+  where $D_{\theta}(z_t, \tilde{t})$ modulate the conditional embeding. The underlying idea of TSG is that modifying the time-step embedding at each step t results in denoised outputs that may either remove too little or too much noise.
     - `Metric:` They achieved the same performance on model without condition
 </details>
 
