@@ -9,7 +9,7 @@ Analysis of Weekly Papers on Image and Video Generation in May 2024.
 - `Keypoints:`  LLM; Multi-token Prediction;
 - `Objective:`In this work, they suggest that training language models to predict multiple future tokens at once results leading to higher sample efficiency.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8371df83-d9c0-4087-b415-658e6304dfff" width="250" />
+  <img src="https://github.com/user-attachments/assets/8371df83-d9c0-4087-b415-658e6304dfff" width="200" />
   <img src="https://github.com/user-attachments/assets/d6b00bb9-cf69-4af0-9543-2e9fe1c5a9f4" width="450" />
 </p>
 
