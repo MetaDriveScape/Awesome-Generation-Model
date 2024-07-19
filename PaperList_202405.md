@@ -80,3 +80,47 @@ Analysis of Weekly Papers on Image and Video Generation in May 2024.
 
 </details>
 
+## Controllable 
+### ReVideo: Remake a Video with Motion and Content Control
+- `Keypoints:` SVD-based Video Editing;
+- `Objective:` They accurately edit content and motion in specific areas of a video through a single control module.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ea4705d0-cc98-4ffb-b9e3-39709b4fe49a" width="450" />
+</p>
+-   <details>
+    <summary>Details</summary>
+    
+    - `Method:` Training strategy：1.only train the motion trajectory control； 2.the editing region and the unedited region come from two different videos；3.fine-tune the key embedding and value embedding in temporal self-attention layers of the control module and SVD model
+
+</details>
+
+## Video Generation
+### StoryDiffusion: Consistent Self-Attention for Long-Range Image and Video Generation
+- `Keypoints:` Long-time video generation; Consistency; Text contorl;
+- `Objective:` They focus on improve the consistency of the long video generation.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d9a62649-8236-449c-8ce5-62699d02f6d8" width="450" />
+</p>
+-   <details>
+    <summary>Details</summary>
+    
+    - `Method:` 1.Consistent Self-Attention: it can maintain the consistency of characters in a sequence of generated images for storytelling with high text controllability; 2.Semantic Motion Predictor: it can generate significantly more stable long-range video frames that can be easily upscaled to minutes.
+
+</details>
+
+## Image Generation
+### RectifID: Personalizing Rectified Flow with Anchored Classifier Guidance
+- `Keypoints:` Rectified flow; Classifier guidance; Training free;
+- `Objective:` Traditional methods require training and tuning, which can be cumbersome and resource-intensive when dealing with large datasets, and the results may not always be satisfactory. However, if we can directly use a classifier trained on clean images to guide the process, we can leverage pre-existing models such as DINO v2.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b3d3d944-918b-4182-b1d7-a4e186287031" width="450" />
+</p>
+-   <details>
+    <summary>Details</summary>
+    
+    - `Method:` Leveraging classifier guidance to steer diffusion models for personalized image generation without additional training. The approach utilizes a pre-trained classifier to guide the rectified flow, solving the challenge of requiring a special noise-aware classifier by reformulating it as a fixed-point problem. This allows for flexible personalization with off-the-shelf image discriminators. The method anchors the flow trajectory to a reference, ensuring stability and convergence, and has been demonstrated to work effectively across various personalization tasks for human faces, live subjects, and objects.
+
+</details>
