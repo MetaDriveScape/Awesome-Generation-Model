@@ -46,3 +46,18 @@ Analysis of Weekly Papers on Image and Video Generation in July 2024.
 - `Keypoints:` Model Growth;  LLM Pre-Training;
 - `Objective:` To overcome these limitations, we first summarize existing works into four atomic growth operators to represent these growth techniques. Then we build a standardized LLMs training testbed to pre-train LLMs with four growth operators on depthwise and widthwise directions and evaluate the results with both training loss and eight evaluation metrics in Harness.
 
+
+## Diffusion
+
+### VEnhancer: Generative Space-Time Enhancement for Video Generation
+- `Keypoints:` Diffusion Model; Super Resolution; ControlNet;
+- `Objective:`The article aims to increase its spatial and temporal resolution simultaneously with arbitrary up-sampling space and time scales through a unified video diffusion model.
+
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:` The researchers train a video ControlNet based on a pretrained diffusion model, using different low-resolution and low-frame-rate videos as conditions. Besides, they inject the scale of spaitial and temporal inot the ControlNet.
+
+    - `Metric:` They surpasses existing state-of-the-art video super-resolution and space-time super-resolution methods in enhancing AIgenerated videos. They help exisiting open-source state-of-theart text-to-video method, VideoCrafter-2, reaches the top one in video generation benchmark – VBench. Their disadvantage is that they cannot support ultra-high resolutions, such as 4K.
+
+</details>
