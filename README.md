@@ -4,7 +4,7 @@ Analysis of Weekly Papers on **Image and Video Generation**.
 # PaperLists
 - [202404 weekly papers](PaperList_202404.md)
 - [202405 weekly papers](PaperList_202405.md)
-
+- [202407 weekly papers](PaperList_202407.md)
 # Latest Update: April 2024
 
 ## LLM
