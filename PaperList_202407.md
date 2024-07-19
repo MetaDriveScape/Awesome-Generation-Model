@@ -1,22 +1,34 @@
 # Introduction
-Analysis of Weekly Papers on Image and Video Generation in May 2024.
+Analysis of Weekly Papers on Image and Video Generation in July 2024.
 
 # 202407
 
-## LLM
+## Diffusion
 
-### Better & Faster Large Language Models via Multi-token Prediction 
-- `Keypoints:`  LLM; Multi-token Prediction;
-- `Objective:`In this work, they suggest that training language models to predict multiple future tokens at once results leading to higher sample efficiency.
+### DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents
+- `Keypoints:`  Controlable Generation; Discrete Latent
+- `Objective:`In this work, they suggest that train a encoder to extract discrete latents from cleaning images during the training can reduce the learning difficultance of the diffusion model especially when there are multimodal conditions. 
+- `Main PipeLine:`
+    
+-   <details>
+    <summary>Details</summary>
 
-### What matters when building vision-language models? 
-- `Keypoints:` Vision-Language Models (VLMs);Design Decisions; Performance Improvement;
-- `Objective:`The article aims to identify critical factors that influence the performance of vision-language models (VLMs) and to challenge the conventional design choices made in the literature without proper justification. The goal is to make progress in the field by determining which decisions genuinely improve model performance.
+    - `Method:` The diffusion model learn a map from multiple conditions to 2d images, which is difficult. the authors propose to learn a tokenizer and codebook as the prior of the generation. The training process has two stage. In the first stage, the tokenizer is trained with the diffusion UNet, inputing the GT image. During the second stage, an autogressive model is trained to generate tokens from the codebook in autogressive way. When inference, sample a token from codebook and get a set of tokens from the autogressive model.
+
+</details>
+
+### No Training, No Problem: Rethinking Classifier-Free Guidance for Diffusion Models
+- `Keypoints:` Classifer-free Guidance;
+- `Objective:` The method propose two techniques to apply cfg to general diffusion models, specifically, models without condition inputs and condtional models not be trained in classifer-free style, and get the same performance with the cfg. 
 
 -   <details>
     <summary>Details</summary>
 
-    - `Method:`The researchers conducted extensive experiments on various aspects, including pre-trained models, architectural choices, data selection, and training methodologies. They developed Idefics2, an 8 billion parameter foundational VLM, which was tested and compared with other models. They also explored different design choices such as model architecture, connector modules, multimodal training procedures, and inference efficiency.
+    - `Method:` The author propose two techniques. 
+        - Independent Condition Guidance: 
+            In this method, we compute the model outputs for the clean time-step embedding and a perturbed embedding and use their difference to guide the sampling.
+        - Time-step Guidance:
+         improves output quality in a manner similar to CFG for both conditional and unconditional generation.
 
 
     - `Metric:` They achieved state-of-the-art performance within its size category across multiple benchmarks, often matching or exceeding the performance of models four times its size. The model demonstrated efficiency at inference and was released alongside the datasets used for its training, providing a resource for the VLM community. The performance was measured using various multimodal benchmarks like VQAv2, TextVQA, OKVQA, and COCO.
