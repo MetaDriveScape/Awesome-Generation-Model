@@ -68,7 +68,7 @@ Based on that, the authors propose to use a random condition to modulate the unc
 
 ### VEnhancer: Generative Space-Time Enhancement for Video Generation
 - `Keypoints:` Diffusion Model; Super Resolution; ControlNet;
-- `Objective:`The article aims to increase its spatial and temporal resolution simultaneously with arbitrary up-sampling space and time scales through a unified video diffusion model.
+- `Objective:` The article aims to increase its spatial and temporal resolution simultaneously with arbitrary up-sampling space and time scales through a unified video diffusion model.
 
 -   <details>
     <summary>Details</summary>
@@ -78,3 +78,15 @@ Based on that, the authors propose to use a random condition to modulate the unc
     - `Metric:` They surpasses existing state-of-the-art video super-resolution and space-time super-resolution methods in enhancing AIgenerated videos. They help exisiting open-source state-of-theart text-to-video method, VideoCrafter-2, reaches the top one in video generation benchmark – VBench. Their disadvantage is that they cannot support ultra-high resolutions, such as 4K.
 
 </details>
+
+### Video Diffusion Alignment via Reward Gradients
+- `Keypoints:` Foundational Video Diffusion Models, Reward Models; Pretrained Model;
+- `Objective:` They utilize pre-trained reward models that are learned via preferences on top of powerful vision discriminative models to adapt video diffusion models.
+-   <details>
+    <summary>Details</summary>
+    - `Method:` They presented VADER, which is a sample and compute efficient framework for fine-tuning pre-trained video diffusion models via reward gradients.
+    - `Reward Models:` Image-Text Similarity Reward： Human Preference Reward Models (HPSv2 and  PickScore: input an image-text pair and predict human preference for the generated image); Video-Text Similarity Reward: Video Action Classification (VideoMAE, the whole video as input, reward is the probability predicted by the action classifier for the desired behavior); Image Generation Objective: Aesthetic Reward Model (LAION aesthetic predictor V2, aesthetic score from 1 to 10, where images rated as 10 are classified as art pieces.), Object Removal(YOLOS, reward is one minus the confidence score of the target object category)
+Video Generation Objective: ; Long-horizon consistent generation: Temporal Consistency via V-JEPA(self-supervised masked prediction objective, the reward is the negative of the masked autoencoding loss in the V-JEPA feature space)
+    - `Reducing Memory Overhead:` Standard Tricks(LoRA, mixed precision, gradient checkpointing), Truncated Backprop(diffusion model for one timestep), and Subsampling Frames.
+    - `Metric:` Sample and Computational Efficiency: reward queries and  GPU-hours; Generalization Ability: aesthetic score(T2V,I2V), HPSv2 Score(T2V), Class Accuracy; Human Evaluation: Fidelity, Text Align
+    
