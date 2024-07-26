@@ -20,6 +20,25 @@ Analysis of Weekly Papers on Image and Video Generation in July 2024.
 
 </details>
 
+### VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control
+- `Keypoints:`  Transformer-based video diffusion models; camera control motion; video generation; controlnet
+- `Objective:`large video transformers for 3D camera control using a ControlNet-like conditioning mechanism that incorporates spatiotemporal camera embeddings based on Plucker coordinates
+- `Motivation:`any attempt to alter the temporal dynamics (such as camera motion) influences spatial communication between the tokens, leading to unnecessary signal propagation and overfitting during the fine-tuning stage
+
+- `Method:`
+<img width="508" alt="qsvX_03PkE78KOQ17PWzh6B-eVY9b4GBR1-wTFtPBE4" src="https://github.com/user-attachments/assets/18806876-2b19-4d3d-9896-26f82426d57d">
+
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:` 
+    based on SnapVideo: 
+    video_patch-->conditioned with camera plucker-->CrossAttn with textcond-->FIT Block-->new latent-->denoise-->output:pixel_level_video
+    conditioned with camera plucker: similar to controlNet
+
+</details>
+
+
 ### No Training, No Problem: Rethinking Classifier-Free Guidance for Diffusion Models
 - `Keypoints:` Classifier-free Guidance;
 - `Objective:` The method proposes two techniques to apply cfg to general diffusion models, specifically, models without condition inputs and conditional models not be trained in classifer-free style, and get the same performance with the cfg. 
