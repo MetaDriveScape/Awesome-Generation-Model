@@ -34,6 +34,7 @@ Analysis of Weekly Papers on Image and Video Generation in July 2024.
     - `Method:` 
     based on SnapVideo: 
     video_patch-->conditioned with camera plucker-->CrossAttn with textcond-->FIT Block-->new latent-->denoise-->output:pixel_level_video
+
     conditioned with camera plucker: similar to controlNet
 
 </details>
