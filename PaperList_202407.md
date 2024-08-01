@@ -83,6 +83,13 @@ Based on that, the authors propose to use a random condition to modulate the unc
 - `Keypoints:` Model Growth;  LLM Pre-Training;
 - `Objective:` To overcome these limitations, we first summarize existing works into four atomic growth operators to represent these growth techniques. Then we build a standardized LLMs training testbed to pre-train LLMs with four growth operators on depthwise and widthwise directions and evaluate the results with both training loss and eight evaluation metrics in Harness.
 
+### ViD-GPT: Introducing GPT-style Autoregressive Generation in Video Diffusion Models
+- `Keypoints:` Autoregressive, video diffusion, open-sora, long term generation
+- `Objective:` Using causal Transformers to generate long videos because it can support longer dependencies than bidirectional Transformers.
+
+  - Based on Open-SORA (version 1.0 or lower), change all attentions to causal version, where the current frame depends only on past frames, enabling acceleration using qk cache technology.
+  - Frame as Prompt. Concatenate clean latents with noisy latents for forward pass. (In fact, this operation has been supported since OpenSORA 1.1 and later versions.)
+  - Frame Prompt Enhancement. inject extra reference through spatial attention layers to enhance the guidance to alleviate the quality degeneration duration autoregressive generation.
 
 ## Diffusion
 
