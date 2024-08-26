@@ -4,7 +4,7 @@
 - [Training-free Camera Control for Video Generation](#training-free-camera-control-for-video-generation)
 - [MotionClone: Training-Free Motion Cloning for Controllable Video Generation](#motionclone-training-free-motion-cloning-for-controllable-video-generation)
 - [Controlling Space and Time with Diffusion Models](#controlling-space-and-time-with-diffusion-models)
-
+- []
  
 
 
@@ -93,5 +93,59 @@
     - <img src="https://github.com/user-attachments/assets/51aec161-bd00-4a21-8ee6-709785c9fc12">
 
 </details>
+
+### ReVideo: Remake a Video with Motion and Content Control 
+- `Keypoints:` SVD-based Video Editing
+- `Objective:` accurately edit content and motion in specific areas of a video through a single control module
+-   <details>
+    <summary>Details</summary>
+
+    `Method:`
+     - Training strategy：3-Stage
+      1.only train the motion trajectory control
+      2.the editing region and the unedited region come from two different videos
+      3.fine-tune the key embedding and value embedding in temporal self-attention layers of the control module and SVD model
+      <img src='https://github.com/user-attachments/assets/aa683b1b-4b72-4353-9b21-491985080c5d'>
+      <img src='https://github.com/user-attachments/assets/13bc20ee-0049-428b-997d-623fcf607442'>
+
+</details>
+
+
+### MotionMaster: Training-free Camera Motion Transfer For Video Generation
+- `Keypoints:` Video Generation, Video Motion, Camera Motion Extraction, Disentanglement
+- `Objective:` Disentangles camera motions and object motions in source videos, and transfers the extracted camera motions to new videos
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:` extract motion from temperal attention map: 1. one-shot camera motion disentanglement: extract camera motion from single video, use SAM to get moving object mask, apply poisson blending and Successive Over Relaxation algorithm to predict camera motion.  2.few-shot camera motion disentanglement: for difficult case, can extract common camera motion from multiple videos (videos should have similar camera motion), apply DBSCAN to cluster pixel motion, then combine resulting motion.<img src='https://github.com/user-attachments/assets/5f1e5284-b3c3-456f-a2ea-c9a8fe5a0af9'>
+
+
+</details>
+
+### Collaborative Video Diffusion: Consistent Multi-video Generation with Camera Control 
+- `Keypoints:` multiview video generation
+- `Objective:` generates multi-view consistent videos with camera control & align features across diverse input videos for enhanced consistency
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:`
+    The key insight of this module is as the two videos are assumed to be synchronized to each other, the same frame from the two videos is supposed to share the same underlying geometry and hence can be correlated by their epipolar geometry defined by the given camera poses.<img src='https://github.com/user-attachments/assets/7394391a-0a9e-4de3-a8a7-b46d36fba6c0'>
+    Cross-View Sync Module:![image](https://github.com/user-attachments/assets/4f0ddda3-8804-4b2d-82de-a2b564668023)
+
+
+</details>
+
+
+### CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers
+- `Keypoints:` transformer； camerapose tokenizer；
+- `Objective:` We extend multimodal transformers to include 3D camera motion as a conditioning signal for the task of video generation
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:` we hypothesized that we could re-use existing neural audio algorithms [17] to convert camera path data, represented as a 1D array of floating point numbers, into a small number of tokens appropriate for use with our transformer architecture.
+      ![image](https://github.com/user-attachments/assets/002aa447-ded7-41e2-9cf6-26b85df0b62a)
+
+</details>
+
 
 
