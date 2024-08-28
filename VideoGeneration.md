@@ -2,16 +2,18 @@
 Analysis of Weekly Papers on **Video Generation**.
 
 # Paper Lists
+
+## Table of Contents
 - [Long Video Genaration](#LongVideoGenaration)
   - [Unet](#unet)
     
   - [DiT](#dit)
   - [LLM](#llm)
     - [MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences](#moviedreamer-hierarchical-generation-for-coherent-long-visual-sequences)[2024.07] \[[paper](https://arxiv.org/abs/2407.16655)\] \[[code](https://aim-uofa.github.io/MovieDreamer/)\]
-- [Controllable Generation](#ControllableGeneration)
-- [Multiview Generation](#MultiviewGeneration)
-- [High Fidelty](#HighFidelty)
-- [Efficiency](#Efficiency)
+- 🚀[Controllable Generation](#ControllableGeneration)
+- 🔧[Multiview Generation](#MultiviewGeneration)
+- ✨[High Fidelty](#HighFidelty)
+- 🎉[Efficiency](#Efficiency)
 
 
 
