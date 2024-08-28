@@ -10,8 +10,9 @@
 - [CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers](#camvig-camera-aware-image-to-video-generation-with-multimodal-transformers)
 
 ### Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models
+[diffusion][2024.7][][https://arxiv.org/pdf/2407.15642][https://github.com/maxin-cn/Cinemo]
 - `Keypoints:` Consistent and Controllable I2V, Diffusion
-- `Objective:` a simple yet effective model that excels in both image consistency and motion controllability.
+- `Key Takeaways:` a simple yet effective model that excels in both image consistency and motion controllability.
 -   <details>
     <summary>Details</summary>
 
@@ -26,7 +27,7 @@
 
 ### VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control
 - `Keypoints:`  Transformer-based video diffusion models; camera control motion; video generation; controlnet
-- `Objective:`large video transformers for 3D camera control using a ControlNet-like conditioning mechanism that incorporates spatiotemporal camera embeddings based on Plucker coordinates
+- `Key Takeaways:`large video transformers for 3D camera control using a ControlNet-like conditioning mechanism that incorporates spatiotemporal camera embeddings based on Plucker coordinates
 - `Motivation:`any attempt to alter the temporal dynamics (such as camera motion) influences spatial communication between the tokens, leading to unnecessary signal propagation and overfitting during the fine-tuning stage
 
 
@@ -45,7 +46,7 @@
 
 ### Vivid-ZOO: Multi-View Video Generation with Diffusion Model
 - `Keypoints:` Multi-View Video Generation, Diffusion
-- `Objective:` alignment modules to align the latent spaces of layers from the pre-trained multi-view and the 2D video diffusion models, new multiview dataset
+- `Key Takeaways:` alignment modules to align the latent spaces of layers from the pre-trained multi-view and the 2D video diffusion models, new multiview dataset
 -   <details>
     <summary>Details</summary>
 
@@ -60,7 +61,7 @@
 
 ### Training-free Camera Control for Video Generation
 - `Keypoints:` Training-free Camera Control ,diffusion,t2v
-- `Objective:` offers camera control for off-the-shelf video diffusion models in a training-free but robust manner offers camera control for off-the-shelf video diffusion models in a training-free but robust manner
+- `Key Takeaways:` offers camera control for off-the-shelf video diffusion models in a training-free but robust manner offers camera control for off-the-shelf video diffusion models in a training-free but robust manner
 -   <details>
     <summary>Details</summary>
 
@@ -74,7 +75,7 @@
 
 ### MotionClone: Training-Free Motion Cloning for Controllable Video Generation
 - `Keypoints:`
-- `Objective:`
+- `Key Takeaways:`
 -   <details>
     <summary>Details</summary>
 
@@ -84,7 +85,7 @@
 
 ### Controlling Space and Time with Diffusion Models
 - `Keypoints:` 4D novel view synthesis；diffusion model；
-- `Objective:` 4DiM, a pixel-based diffusion model for novel view synthesis conditioned on one or more images of arbitrary scenes, camera pose, and time.
+- `Key Takeaways:` 4DiM, a pixel-based diffusion model for novel view synthesis conditioned on one or more images of arbitrary scenes, camera pose, and time.
 -   <details>
     <summary>Details</summary>
 
@@ -97,7 +98,7 @@
 
 ### ReVideo: Remake a Video with Motion and Content Control 
 - `Keypoints:` SVD-based Video Editing
-- `Objective:` accurately edit content and motion in specific areas of a video through a single control module
+- `Key Takeaways:` accurately edit content and motion in specific areas of a video through a single control module
 -   <details>
     <summary>Details</summary>
 
@@ -114,7 +115,7 @@
 
 ### MotionMaster: Training-free Camera Motion Transfer For Video Generation
 - `Keypoints:` Video Generation, Video Motion, Camera Motion Extraction, Disentanglement
-- `Objective:` Disentangles camera motions and object motions in source videos, and transfers the extracted camera motions to new videos
+- `Key Takeaways:` Disentangles camera motions and object motions in source videos, and transfers the extracted camera motions to new videos
 -   <details>
     <summary>Details</summary>
 
@@ -125,7 +126,7 @@
 
 ### Collaborative Video Diffusion: Consistent Multi-video Generation with Camera Control 
 - `Keypoints:` multiview video generation
-- `Objective:` generates multi-view consistent videos with camera control & align features across diverse input videos for enhanced consistency
+- `Key Takeaways:` generates multi-view consistent videos with camera control & align features across diverse input videos for enhanced consistency
 -   <details>
     <summary>Details</summary>
 
@@ -139,7 +140,7 @@
 
 ### CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers
 - `Keypoints:` transformer； camerapose tokenizer；
-- `Objective:` We extend multimodal transformers to include 3D camera motion as a conditioning signal for the task of video generation
+- `Key Takeaways:` We extend multimodal transformers to include 3D camera motion as a conditioning signal for the task of video generation
 -   <details>
     <summary>Details</summary>
 
