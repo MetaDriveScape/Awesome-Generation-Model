@@ -77,7 +77,7 @@
 
 
 ### MotionClone: Training-Free Motion Cloning for Controllable Video Generation
-[][][][]
+[SVD][2024.6][preprint][https://arxiv.org/pdf/2406.05338][https://github.com/Bujiazi/MotionClone]
 - `Keypoints:`
 - `Key Takeaways:`
 -   <details>
@@ -88,7 +88,7 @@
 
 
 ### Controlling Space and Time with Diffusion Models
-[][][][]
+[DiT][2024.7][preprint][https://arxiv.org/pdf/2407.07860][https://4d-diffusion.github.io]
 - `Keypoints:` 4D novel view synthesis；diffusion model；
 - `Key Takeaways:` 4DiM, a pixel-based diffusion model for novel view synthesis conditioned on one or more images of arbitrary scenes, camera pose, and time.
 -   <details>
@@ -120,7 +120,7 @@
 
 
 ### MotionMaster: Training-free Camera Motion Transfer For Video Generation
-[][][][]
+[diffusion][2024.5][preprint][https://arxiv.org/pdf/2404.15789][https://arxiv.org/pdf/2404.15789]
 - `Keypoints:` Video Generation, Video Motion, Camera Motion Extraction, Disentanglement
 - `Key Takeaways:` Disentangles camera motions and object motions in source videos, and transfers the extracted camera motions to new videos
 -   <details>
@@ -132,7 +132,7 @@
 </details>
 
 ### Collaborative Video Diffusion: Consistent Multi-video Generation with Camera Control 
-[][][][]
+[SVD][2024.5][preprint][https://collaborativevideodiffusion.github.io/assets/pdfs/paper.pdf][https://collaborativevideodiffusion.github.io]
 - `Keypoints:` multiview video generation
 - `Key Takeaways:` generates multi-view consistent videos with camera control & align features across diverse input videos for enhanced consistency
 -   <details>
@@ -147,7 +147,7 @@
 
 
 ### CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers
-[][][][]
+[transformer][2024.5][preprint][https://arxiv.org/pdf/2405.13195][]
 - `Keypoints:` transformer； camerapose tokenizer；
 - `Key Takeaways:` We extend multimodal transformers to include 3D camera motion as a conditioning signal for the task of video generation
 -   <details>
