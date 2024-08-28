@@ -8,9 +8,8 @@
 
 
 
-
-
-[TOC]
+- [Multi-View Generation](#Multi-View Generation)
+  - [Customizing Text-to-Image Diffusion with Camera Viewpoint Control](#Customizing Text-to-Image Diffusion with Camera Viewpoint Control)
 
 
 
@@ -22,7 +21,6 @@
 
 - `Keypoints:`Camera control， Text-to-image，NeRF
 - `Key Takeaways:`  generate image with accurate camera view, by building a FeatureNeRF from object images and use it as a condition for diffusion
-
 
 
 
