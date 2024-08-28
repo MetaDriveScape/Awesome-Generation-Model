@@ -8,8 +8,7 @@
 
 
 
-- [Multi-View Generation](#Multi-View Generation)
-  - [Customizing Text-to-Image Diffusion with Camera Viewpoint Control](#Customizing Text-to-Image Diffusion with Camera Viewpoint Control)
+- [Customizing Text-to-Image Diffusion with Camera Viewpoint Control](#customizing-text-to-image-diffusion-with-camera-viewpoint-control)
 
 
 
