@@ -1,3 +1,7 @@
+# Paper Lists
+
+## Table of Contents
+
 - [Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models](#cinemo-consistent-and-controllable-image-animation-with-motion-diffusion-models)
 - [VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control](#vd3d-taming-large-video-diffusion-transformers-for-3d-camera-control)
 - [Vivid-ZOO: Multi-View Video Generation with Diffusion Model](#vivid-zoo-multi-view-video-generation-with-diffusion-model)
@@ -9,6 +13,8 @@
 - [Collaborative Video Diffusion: Consistent Multi-video Generation with Camera Control](#collaborative-video-diffusion-consistent-multi-video-generation-with-camera-control)
 - [CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers](#camvig-camera-aware-image-to-video-generation-with-multimodal-transformers)
 
+
+# Controllable Generation
 ### Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models
 [diffusion][2024.7][preprint][https://arxiv.org/pdf/2407.15642][https://github.com/maxin-cn/Cinemo]
 - `Keypoints:` Consistent and Controllable I2V, Diffusion
