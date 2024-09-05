@@ -11,7 +11,9 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
     - 🔧[MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences](#moviedreamer-hierarchical-generation-for-coherent-long-visual-sequences)`[2024.07]` \[[paper](https://arxiv.org/abs/2407.16655)\] \[[code](https://aim-uofa.github.io/MovieDreamer/)\]
 - 📌[Controllable Generation](#ControllableGeneration)
 - 📌[Multiview Generation](#MultiviewGeneration)
+  - 🚀[Unet](#unet)
     - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
+  - 🚀[DiT](#dit)
 - 📌[High Fidelty](#HighFidelty)
 - 📌[Efficiency](#Efficiency)
 
