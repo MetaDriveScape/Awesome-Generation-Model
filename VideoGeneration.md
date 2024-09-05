@@ -11,6 +11,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
     - 🔧[MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences](#moviedreamer-hierarchical-generation-for-coherent-long-visual-sequences)`[2024.07]` \[[paper](https://arxiv.org/abs/2407.16655)\] \[[code](https://aim-uofa.github.io/MovieDreamer/)\]
 - 📌[Controllable Generation](#ControllableGeneration)
 - 📌[Multiview Generation](#MultiviewGeneration)
+    - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
 - 📌[High Fidelty](#HighFidelty)
 - 📌[Efficiency](#Efficiency)
 
@@ -49,7 +50,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
     </details>
 -   `Summay`:They leverage a 3D VAE and an Expert Transformer architecture to generate coherent long-duration videos with significant motion. Mixed-duration training and resolution progressive training further enhance the model’s performance and stability.
 
-#HighFidelty
+# HighFidelty
 ### Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data
 - `Keypoints:` High-fidelity video generation
 - `Objective:` Show that publicly available limited and low-quality (LQ) data are sufficient to train a HQ video generator without recaptioning or finetuning.
@@ -67,3 +68,9 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
     - <img width="380" alt="image" src="https://github.com/user-attachments/assets/ce31fb19-7313-4d1a-bf91-a96b7b6a502e">
     </details>
 -   `Summay`:They leverage a 3D VAE and an Expert Transformer architecture to generate coherent long-duration videos with significant motion. Mixed-duration training and resolution progressive training further enhance the model’s performance and stability.
+
+# Multiview Generation
+# SD
+### LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation `[panorama]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
+- `Keypoints:`  diffusion; gaussian splatting; panorama;
+- `Key Takeaways:`a novel framework for full-view, explorable panoramic 3D scene generation from a single text prompt;The approach provides valuable insights for extending diffusion to new domains  and simultaneously integrates many new technologies.
