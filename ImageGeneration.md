@@ -1,5 +1,6 @@
 
-# Controllable Generation
+# Image Generation
+## Controllable Generation
 
 ### ControlNeXt: Powerful and Efficient Control for Image and Video Generation
 [SD][2024.8][preprint]\[[paper](https://arxiv.org/abs/2408.06070)\]\[[code](https://github.com/dvlab-research/ControlNeXt #)\]
