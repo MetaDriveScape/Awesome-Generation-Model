@@ -16,7 +16,6 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 
 
 # LongVideoGenaration
-## LLM
 ### MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences
 - `Keypoints:` autoencoder; diffusion; long-duration video generation;
 - `Key Takeaways:` a novel hierarchical framework that integrates the strengths of autoregressive models with diffusion-based rendering to pioneer long-duration video generation with intricate plot progressions and high visual fidelity.
