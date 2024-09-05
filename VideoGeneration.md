@@ -5,12 +5,10 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 
 ## Table of Contents
 - 📌[Long Video Genaration](#LongVideoGenaration)
-  - 🚀[Unet](#unet)
-  - 🚀[DiT](#dit)
-  - 🚀[LLM](#llm)
-    - 🔧[MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences](#moviedreamer-hierarchical-generation-for-coherent-long-visual-sequences)`[2024.07]` \[[paper](https://arxiv.org/abs/2407.16655)\] \[[code](https://aim-uofa.github.io/MovieDreamer/)\]
+  - 🔧[MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences](#moviedreamer-hierarchical-generation-for-coherent-long-visual-sequences)`[LLM]` `[2024.07]` \[[paper](https://arxiv.org/abs/2407.16655)\] \[[code](https://aim-uofa.github.io/MovieDreamer/)\]
 - 📌[Controllable Generation](#ControllableGeneration)
 - 📌[Multiview Generation](#MultiviewGeneration)
+  - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
 - 📌[High Fidelty](#HighFidelty)
 - 📌[Efficiency](#Efficiency)
 
@@ -49,7 +47,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
     </details>
 -   `Summay`:They leverage a 3D VAE and an Expert Transformer architecture to generate coherent long-duration videos with significant motion. Mixed-duration training and resolution progressive training further enhance the model’s performance and stability.
 
-#HighFidelty
+# HighFidelty
 ### Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data
 - `Keypoints:` High-fidelity video generation
 - `Objective:` Show that publicly available limited and low-quality (LQ) data are sufficient to train a HQ video generator without recaptioning or finetuning.
@@ -67,3 +65,21 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
     - <img width="380" alt="image" src="https://github.com/user-attachments/assets/ce31fb19-7313-4d1a-bf91-a96b7b6a502e">
     </details>
 -   `Summay`:They leverage a 3D VAE and an Expert Transformer architecture to generate coherent long-duration videos with significant motion. Mixed-duration training and resolution progressive training further enhance the model’s performance and stability.
+ 
+### Generative Inbetweening: Adapting Image-to-Video Models for Keyframe Interpolation
+- `Keypoints:` VideoGeneration, HighFidelity
+- `Objective:` Despite the task's similarity to existing conditioning signals, creating an interpolation model requires further training, and therefore both large amounts of data and substantial computational resources beyond what most researchers have access to.
+-   <details>
+    <summary>Details</summary>
+
+    - `Methods:`
+      - rotating the temporal self-attention maps by 180 degrees—flipping them vertically and horizontally—yields a backward motion opposite to the original forward motion. temporal not spatial!
+      - fine-tunes the value and output projection matrix Wv,Wo in the temporal self-attention layers, using the 180-degree rotated attention map from the forward video as additional input
+      - propose a sampling mechanism that merges the scores of both to produce a single consistent sample
+    </details>
+-   `Summay`:They accomplish this adaptation through a lightweight fine-tuning technique that produces a version of the model that instead predicts videos moving backwards in time from a single input image. This model (along with the original forward-moving model) is subsequently used in a dual-directional diffusion sampling process that combines the overlapping model estimates starting from each of the two keyframes.
+-   
+# Multiview Generation
+### LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation `[SD]` `[panorama]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
+- `Keypoints:`  diffusion; gaussian splatting; panorama;
+- `Key Takeaways:`a novel framework for full-view, explorable panoramic 3D scene generation from a single text prompt;The approach provides valuable insights for extending diffusion to new domains  and simultaneously integrates many new technologies.
