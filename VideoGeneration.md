@@ -10,6 +10,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 - 📌[Multiview Generation](#MultiviewGeneration)
   - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
 - 📌[High Fidelty](#HighFidelty)
+  - [Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data](#Factorized-Dreamer-Training-A-High-Quality-Video-Generator-with-Limited-and-Low-Quality-Data)`[2024.07]`\[[paper](https://arxiv.org/abs/2408.13252)\]
 - 📌[Efficiency](#Efficiency)
 
 
