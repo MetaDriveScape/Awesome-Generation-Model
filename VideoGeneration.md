@@ -70,7 +70,20 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
     - <img width="380" alt="image" src="https://github.com/user-attachments/assets/ce31fb19-7313-4d1a-bf91-a96b7b6a502e">
     </details>
 -   `Summay`:They leverage a 3D VAE and an Expert Transformer architecture to generate coherent long-duration videos with significant motion. Mixed-duration training and resolution progressive training further enhance the model’s performance and stability.
+ 
+### Generative Inbetweening: Adapting Image-to-Video Models for Keyframe Interpolation
+- `Keypoints:` VideoGeneration, HighFidelity
+- `Objective:` Despite the task's similarity to existing conditioning signals, creating an interpolation model requires further training, and therefore both large amounts of data and substantial computational resources beyond what most researchers have access to.
+-   <details>
+    <summary>Details</summary>
 
+    - `Methods:`
+      - rotating the temporal self-attention maps by 180 degrees—flipping them vertically and horizontally—yields a backward motion opposite to the original forward motion. temporal not spatial!
+      - fine-tunes the value and output projection matrix Wv,Wo in the temporal self-attention layers, using the 180-degree rotated attention map from the forward video as additional input
+      - propose a sampling mechanism that merges the scores of both to produce a single consistent sample
+    </details>
+-   `Summay`:They accomplish this adaptation through a lightweight fine-tuning technique that produces a version of the model that instead predicts videos moving backwards in time from a single input image. This model (along with the original forward-moving model) is subsequently used in a dual-directional diffusion sampling process that combines the overlapping model estimates starting from each of the two keyframes.
+-   
 # Multiview Generation
 ## SD
 ### LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation `[panorama]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
