@@ -10,6 +10,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 - 📌[Multiview Generation](#MultiviewGeneration)
   - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
 - 📌[High Fidelty](#HighFidelty)
+  - [Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data](#Factorized-Dreamer-Training-A-High-Quality-Video-Generator-with-Limited-and-Low-Quality-Data)`[2024.07]`\[[paper](https://arxiv.org/abs/2408.13252)\]
 - 📌[Efficiency](#Efficiency)
 
 
@@ -59,7 +60,8 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
         - Propose a ControlNet-like PredictNet to predict the optical flow and learn video motion.
         - Modify the noise schedule to cater to video generation
       - <img width="902" alt="image" src="https://github.com/user-attachments/assets/43333334-96dd-4a28-9b0a-f13115578526">
-      <img width="834" alt="image" src="https://github.com/user-attachments/assets/8386bf06-37d0-4469-9530-d6e9ebb17ed8">
+      - The loss consists of two parts, diffusion loss and flow prediction loss. <img width="163" alt="image" src="https://github.com/user-attachments/assets/64dc1a2a-728f-47da-bab8-6d6be09c44ca">
+
     - `Metrics:` It can be seen that noise schedule helps improve temporal consistency the most
       <img width="917" alt="image" src="https://github.com/user-attachments/assets/d5ff28ae-2699-4ce6-9b40-a70800d2fe39">
       - compare with others
