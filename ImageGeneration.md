@@ -4,11 +4,11 @@
 ## Paper Lists
 
 ## Table of Contents
-- 📌[Controllable Generation](## Controllable Generation)
-  - 🔧[ControlNeXt: Powerful and Efficient Control for Image and Video Generation](### ControlNeXt: Powerful and Efficient Control for Image and Video Generation)`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.06070)\] \[[code](https://github.com/dvlab-research/ControlNeXt)\]
+- 📌[Controllable Generation](#Controllable Generation)
+  - 🔧[ControlNeXt: Powerful and Efficient Control for Image and Video Generation](#ControlNeXt: Powerful and Efficient Control for Image and Video Generation)`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.06070)\] \[[code](https://github.com/dvlab-research/ControlNeXt)\]
 
-- 📌[Super Resolution](## Super Resolution )
-    - 🔧[MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning](### MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning)`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.11001)\] \[[code](https://haoningwu3639.github.io/MegaFusion)\]
+- 📌[Super Resolution](#Super Resolution )
+    - 🔧[MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning](#MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning)`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.11001)\] \[[code](https://haoningwu3639.github.io/MegaFusion)\]
 
 
 ## Controllable Generation
