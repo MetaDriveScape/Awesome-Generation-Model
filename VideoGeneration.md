@@ -72,7 +72,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 -   `Summay`:They leverage a 3D VAE and an Expert Transformer architecture to generate coherent long-duration videos with significant motion. Mixed-duration training and resolution progressive training further enhance the model’s performance and stability.
 
 # Multiview Generation
-# SD
+## SD
 ### LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation `[panorama]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
 - `Keypoints:`  diffusion; gaussian splatting; panorama;
 - `Key Takeaways:`a novel framework for full-view, explorable panoramic 3D scene generation from a single text prompt;The approach provides valuable insights for extending diffusion to new domains  and simultaneously integrates many new technologies.
