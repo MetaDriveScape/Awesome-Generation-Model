@@ -4,7 +4,7 @@
 ## Paper Lists
 
 ## Table of Contents
-- 📌[Controllable Generation](#Controllable Generation)
+- 📌[Controllable Generation](#controllable-generation)
   - 🔧[ControlNeXt: Powerful and Efficient Control for Image and Video Generation](#ControlNeXt: Powerful and Efficient Control for Image and Video Generation)`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.06070)\] \[[code](https://github.com/dvlab-research/ControlNeXt)\]
 
 - 📌[Super Resolution](#Super Resolution )
