@@ -90,5 +90,9 @@
 - `Keypoints:` SVD; Diffusion Video Generation; Motion Control 
 - `Key Takeaways:` based on motion trajectories caclulate a attention map of motion area for temporal-self-attention
 
+### SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion
+[SVD][2024.3][ECCV24]\[[paper](https://arxiv.org/pdf/2403.12008)\]\[[code](https://github.com/Stability-AI/generative-models/tree/sv3d_gradio?tab=readme-ov-file)\]
+- `Keypoints:` 3D Generation, SVD, multi-view image generation
+- `Key Takeaways:` camera pose(elevation e and azimuth a angles.): sinusoidal embedding->MLP->add to time embedding; combine static orbit(without camera pose cond) and dynamic orbit (with camera pose cond)
 
 
