@@ -13,7 +13,7 @@
 - [Collaborative Video Diffusion: Consistent Multi-video Generation with Camera Control](#collaborative-video-diffusion-consistent-multi-video-generation-with-camera-control)[SVD][2024.5][preprint]\[[paper](https://collaborativevideodiffusion.github.io/assets/pdfs/paper.pdf)\]\[[code](https://collaborativevideodiffusion.github.io)\]
 - [CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers](#camvig-camera-aware-image-to-video-generation-with-multimodal-transformers)[transformer][2024.5][preprint]\[[paper](https://arxiv.org/pdf/2405.13195)\][]
 - [TrackGo: A Flexible and Efficient Method for Controllable Video Generation](#trackgo-a-flexible-and-efficient-method-for-controllable-video-generation)[SVD][2024.8][preprint]\[[paper](https://arxiv.org/pdf/2408.11475)\]\[[code](https://zhtjtcz.github.io/TrackGo-Page/#)\]
-
+- [SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](#sv3d-novel-multi-view-synthesis-and-3d-generation-from-a-single-image-using-latent-video-diffusion)[SVD][2024.3][ECCV24]\[[paper](https://arxiv.org/pdf/2403.12008)\]\[[code](https://github.com/Stability-AI/generative-models/tree/sv3d_gradio?tab=readme-ov-file)\]
 
 # Controllable Generation
 ### Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models
