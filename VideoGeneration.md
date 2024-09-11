@@ -97,7 +97,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
        <img width="764" alt="image" src="https://github.com/user-attachments/assets/760ad3f4-e2f1-4e66-9ff8-1b4a8aada2c4">
        <img width="357" alt="image" src="https://github.com/user-attachments/assets/f4c9ac78-9fae-4f5d-a734-c762039eea40">
     - `Results`
-      <img width="609" alt="image" src="https://github.com/user-attachments/assets/a390d41c-0074-4c4a-b8bd-21a2107bc66f">
+        <img width="609" alt="image" src="https://github.com/user-attachments/assets/a390d41c-0074-4c4a-b8bd-21a2107bc66f">
 
 ### Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability
 - `Keypoints:` High-fidelity, High FPS video generation.
@@ -108,7 +108,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
     <summary>Details</summary>
   
     - `Methods:`
-    <img width="916" alt="image" src="https://github.com/user-attachments/assets/6112f8d4-2e33-4a29-aada-f4149e80f176">
+        <img width="916" alt="image" src="https://github.com/user-attachments/assets/6112f8d4-2e33-4a29-aada-f4149e80f176">
 
     
 
