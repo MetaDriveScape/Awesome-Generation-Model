@@ -12,7 +12,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 - 📌[High Fidelty](#HighFidelty)
   - [Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data](#Factorized-Dreamer-Training-A-High-Quality-Video-Generator-with-Limited-and-Low-Quality-Data)`[2024.07]`\[[paper](https://arxiv.org/abs/2408.13252)\]
 - 📌[Efficiency](#Efficiency)
-- 📌[Controllable Generation](#ControllableGeneration)
+- 📌[Controllable Generation](#Controllable-Generation)
   - [Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models](#cinemo-consistent-and-controllable-image-animation-with-motion-diffusion-models) `[DiT]` `[2024.7]` `[preprint]` \[[paper](https://arxiv.org/pdf/2407.07860)\]\[[code](https://4d-diffusion.github.io)\]
   - [VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control](#vd3d-taming-large-video-diffusion-transformers-for-3d-camera-control)    `[Snap Video FIT]` `[2024.7]` `[preprint]` \[[paper](https://arxiv.org/pdf/2407.12781)\]\[[code](https://snap-research.github.io/vd3d/index.html)\]
   - [Vivid-ZOO: Multi-View Video Generation with Diffusion Model](#vivid-zoo-multi-view-video-generation-with-diffusion-model)    `[SD]` `[2024.6]` `[preprint]` \[[paper](https://arxiv.org/pdf/2406.08659)\]\[[code](https://github.com/hi-zhengcheng/vividzoo)\]
