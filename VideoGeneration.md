@@ -61,9 +61,59 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 -   `Summay`:They leverage a 3D VAE and an Expert Transformer architecture to generate coherent long-duration videos with significant motion. Mixed-duration training and resolution progressive training further enhance the model’s performance and stability.
 
 # HighFidelty
+### DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents
+- `Keypoints:`  Discrete Latent
+- `Key Takeaways:` Use discrete latents to reduce the learning difficulty of the conditional multimodal diffusion.
+-   <details>
+    <summary>Details</summary>
+  - `Methods:`
+    <img width="832" alt="image" src="https://github.com/user-attachments/assets/5216bd38-0239-453c-8b6d-b07b8ae956b9">
+
+### No Training, No Problem: Rethinking Classifier-Free Guidance for Diffusion Models
+- `Keypoints:`  Classifier-free Guidance
+- `Key Takeaways:`
+    - Independent condition guidance offers performance similar to CFG and can be readily applied to models that are not trained with the CFG objective in mind, such as EDM
+    - Time-step guidance improves output quality in a manner similar to CFG for both conditional and unconditional generation.
+-   <details>
+    <summary>Details</summary>
+
+    - `Methods:`
+      - Independent condition guidance
+        <img width="922" alt="image" src="https://github.com/user-attachments/assets/f963a415-39b6-4941-9f36-dd27375ab8bd">
+        <img width="917" alt="image" src="https://github.com/user-attachments/assets/0d7e1f5d-ff1f-4ead-bccd-b0ae18bfaddb">
+      - Time-step guidance
+        <img width="925" alt="image" src="https://github.com/user-attachments/assets/7398fc0c-4724-42e6-8aba-9d54345ba8ae">
+        <img width="924" alt="image" src="https://github.com/user-attachments/assets/d60daef4-1519-4e37-8919-9fcd034212ef">
+
+### VEnhancer: Generative Space-Time Enhancement for Video Generation
+- `Keypoints:`  High-resolution; High-FPS
+- `Key Takeaways:` a novel super-resolution framework for generating high-resolution and any high-fps video in one stage.
+-   <details>
+    <summary>Details</summary>
+
+    - `Methods:`
+       - Input low-resolution and low fps videos, noise, and down-scalar information by ControlNet
+       - Space-Time Data Augmentation training scheme.
+       <img width="764" alt="image" src="https://github.com/user-attachments/assets/760ad3f4-e2f1-4e66-9ff8-1b4a8aada2c4">
+       <img width="357" alt="image" src="https://github.com/user-attachments/assets/f4c9ac78-9fae-4f5d-a734-c762039eea40">
+    - `Results`
+      <img width="609" alt="image" src="https://github.com/user-attachments/assets/a390d41c-0074-4c4a-b8bd-21a2107bc66f">
+
+### Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability
+- `Keypoints:` High-fidelity, High FPS video generation.
+- `Key Takeaways:` Vista adopts a two-phase training pipeline.
+    - Build a dedicated predictive model, which involves a latent replacement approach to enable coherent future prediction and two novel losses to enhance fidelity (Dynamics Enhancement Loss, Structure Preservation Loss).
+    - Incorporate multi-modal actions to learn action controllability with an efficient and collaborative training strategy.
+-   <details>
+    <summary>Details</summary>
+    - Pipeline
+    <img width="916" alt="image" src="https://github.com/user-attachments/assets/6112f8d4-2e33-4a29-aada-f4149e80f176">
+
+    
+
 ### Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data
 - `Keypoints:` High-fidelity video generation
-- `Objective:` High-quality video generator that can be trained using limited and low-quality (LQ) datasets. 
+- `Key Takeaways:` High-quality video generator that can be trained using limited and low-quality (LQ) datasets. 
 -   <details>
     <summary>Details</summary>
 
@@ -84,7 +134,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
  
 ### Generative Inbetweening: Adapting Image-to-Video Models for Keyframe Interpolation
 - `Keypoints:` VideoGeneration, HighFidelity
-- `Objective:` Despite the task's similarity to existing conditioning signals, creating an interpolation model requires further training, and therefore both large amounts of data and substantial computational resources beyond what most researchers have access to.
+- `Key Takeaways:` Despite the task's similarity to existing conditioning signals, creating an interpolation model requires further training, and therefore both large amounts of data and substantial computational resources beyond what most researchers have access to.
 -   <details>
     <summary>Details</summary>
 
@@ -103,6 +153,9 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 
 
 # Controllable Generation
+
+### MotionClone: Training-Free Motion Cloning for Controllable Video Generation
+
 ### Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models
 [DiT][2024.7][preprint]\[[paper](https://arxiv.org/pdf/2407.07860)\]\[[code](https://4d-diffusion.github.io)\]
 - `Keypoints:` Consistent and Controllable I2V, Diffusion
