@@ -10,7 +10,11 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 - 📌[Multiview Generation](#MultiviewGeneration)
   - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
 - 📌[High Fidelty](#HighFidelty)
-  - [Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data](#Factorized-Dreamer-Training-A-High-Quality-Video-Generator-with-Limited-and-Low-Quality-Data) `[2024.07]`\[[paper](https://arxiv.org/abs/2408.13252)\]
+  - [Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data](#Factorized-Dreamer-Training-A-High-Quality-Video-Generator-with-Limited-and-Low-Quality-Data)`[2024.07]`\[[paper](https://arxiv.org/abs/2408.13252)\]
+  - [DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents](#DisCo-Diff-Enhancing-Continuous-Diffusion-Models-with-Discrete-Latents)`[2024.07]`\[[paper](https://arxiv.org/abs/2407.03300)\]
+  - [No-Training-No-Problem-Rethinking-Classifier-Free-Guidance-for-Diffusion-Models](#No-Training-No-Problem-Rethinking-Classifier-Free-Guidance-for-Diffusion-Models)`[2024.07]`\[[paper](https://arxiv.org/abs/2407.02687)\]
+  - [VEnhancer: Generative Space-Time Enhancement for Video Generation](#VEnhancer-Generative-Space-Time-Enhancement-for-Video-Generation)`[2024.07]`\[[paper](https://arxiv.org/abs/2407.07667)\]
+  - [Vista-A-Generalizable-Driving-World-Model-with-High-Fidelity-and-Versatile-Controllability](#Vista-A-Generalizable-Driving-World-Model-with-High-Fidelity-and-Versatile-Controllability)`[2024.07]`\[[paper](https://arxiv.org/abs/2405.17398)\]
 - 📌[Efficiency](#Efficiency)
   - [Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition](#Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition) `[2024.05]` `[ICLR24]` \[[paper](https://arxiv.org/abs/2403.14148)\]
   - [Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution](#Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution) `[2024.04]` `[AAAI24]` \[[paper](https://arxiv.org/abs/2404.10688)\] \[[code](https://github.com/Yuan-Yutao/ECDP)\]
