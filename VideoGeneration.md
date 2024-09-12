@@ -1,5 +1,5 @@
 # Introduction
-Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **Long Video Genaration**, **Controllable Generation**, **Multiview Generation**, **High Fidelty**, **Efficiency**; 🔥 Update every Thursday! 🔥
+Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **Long Video Generation**, **Controllable Generation**, **Multiview Generation**, **High Fidelity**, **Efficiency**; 🔥 Update every Thursday! 🔥
 
 # Paper Lists
 
