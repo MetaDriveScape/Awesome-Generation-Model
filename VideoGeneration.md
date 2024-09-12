@@ -10,8 +10,15 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 - 📌[Multiview Generation](#MultiviewGeneration)
   - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
 - 📌[High Fidelty](#HighFidelty)
-  - [Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data](#Factorized-Dreamer-Training-A-High-Quality-Video-Generator-with-Limited-and-Low-Quality-Data)`[2024.07]`\[[paper](https://arxiv.org/abs/2408.13252)\]
+  - [Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data](#Factorized-Dreamer-Training-A-High-Quality-Video-Generator-with-Limited-and-Low-Quality-Data) `[2024.07]`\[[paper](https://arxiv.org/abs/2408.13252)\]
 - 📌[Efficiency](#Efficiency)
+  - [Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition](#Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition) `[2024.05]` `[ICLR24]` \[[paper](https://arxiv.org/abs/2403.14148)\]
+  - [Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution](#Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution) `[2024.04]` `[AAAI24]` \[[paper](https://arxiv.org/abs/2404.10688)\] \[[code](https://github.com/Yuan-Yutao/ECDP)\]
+  - [T2V-Turbo: Breaking the Quality Bottleneck of Video Consistency Model with Mixed Reward Feedback](#T2V-Turbo:Breaking the Quality Bottleneck of Video Consistency Model with Mixed Reward Feedback) `[2024.05]` \[[paper](https://arxiv.org/abs/2405.18750)\] \[[code](https://github.com/Ji4chenLi/t2v-turbo)\]
+  - [Phased Consistency Model](#Phased Consistency Model) `[2024.05]` \[[paper](https://arxiv.org/abs/2405.18407)\] \[[code](https://github.com/G-U-N/Phased-Consistency-Model/tree/master)\]
+  - [EM Distillation for One-step Diffusion Models](#EM Distillation for One-step Diffusion Models) `[2024.05]` \[[paper](https://arxiv.org/abs/2405.16852)\]
+  - [Large Kernel Distillation Network for Efficient Single Image Super-Resolution](#Large Kernel Distillation Network for Efficient Single Image Super-Resolution) `[2024.07]` `[CVPRW 2023]` \[[paper](https://arxiv.org/abs/2407.14340)\] \[[code](https://github.com/stella-von/LKDN )\]
+  - [One-Step Effective Diffusion Network for Real-World Image Super-Resolution](#One-Step Effective Diffusion Network for Real-World Image Super-Resolution) `[2024.06]` \[[paper](https://arxiv.org/abs/2406.08177)\] \[[code](https://github.com/cswry/OSEDiff)\]
 - 📌[Controllable Generation](#Controllable-Generation)
   - [Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models](#cinemo-consistent-and-controllable-image-animation-with-motion-diffusion-models) `[DiT]` `[2024.7]` `[preprint]` \[[paper](https://arxiv.org/pdf/2407.07860)\]\[[code](https://4d-diffusion.github.io)\]
   - [VD3D: Taming Large Video Diffusion Transformers for 3D Camera Control](#vd3d-taming-large-video-diffusion-transformers-for-3d-camera-control)    `[Snap Video FIT]` `[2024.7]` `[preprint]` \[[paper](https://arxiv.org/pdf/2407.12781)\]\[[code](https://snap-research.github.io/vd3d/index.html)\]
@@ -148,6 +155,37 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 ### LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation `[SD]` `[panorama]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
 - `Keypoints:`  diffusion; gaussian splatting; panorama;
 - `Key Takeaways:`a novel framework for full-view, explorable panoramic 3D scene generation from a single text prompt;The approach provides valuable insights for extending diffusion to new domains  and simultaneously integrates many new technologies.
+
+# Efficiency
+### Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition `[2024.05]` `[ICLR24]` \[[paper](https://arxiv.org/abs/2403.14148)\]
+### Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution `[2024.04]` `[AAAI24]` \[[paper](https://arxiv.org/abs/2404.10688)\] \[[code](https://github.com/Yuan-Yutao/ECDP)\]
+- `Keypoints:` super-resolution
+- `Key Takeaways:`  improve the efficiency, quality and consistency of the super resolution
+  - `Methods:`
+    - propose to use probability flow sampling to train the network(improve efficiency)
+    - Supervise the generation by original image and the noise instead of only by noise as the SVD does(improve consisitency, reduce the variance of the generated image, guiding it to be more and more similar to the LR)
+    - use probability flow sampling to supervise the perceptual loss between HR and LR(improve quality)
+
+### T2V-Turbo: Breaking the Quality Bottleneck of Video Consistency Model with Mixed Reward Feedback `[2024.05]` \[[paper](https://arxiv.org/abs/2405.18750)\] \[[code](https://github.com/Ji4chenLi/t2v-turbo)\]
+- `Keypoints:` Consistency model;Mixed Reward Model; T2V; Benchmark
+- `Key Takeaways:`  improve the efficiency, quality and consistency of the super resolution
+  - `Methods:` They leverage reward feedback from an image-text RM to improve human preference on each individual video frame and further utilize the feedback from a video-text RM to improve the temporal dynamics and transitions in the generated video. They combined an image-text RM,  a video-text RM and consistency distillation(CD) loss to generate high-quality videos with 4-8 inference steps.
+
+### Phased Consistency Model `[2024.05]` \[[paper](https://arxiv.org/abs/2405.18407)\] \[[code](https://github.com/G-U-N/Phased-Consistency-Model/tree/master)\]
+- `Keypoints:`  Consistency model; Guided-Distillation; Adversarial Consistency
+- `Key Takeaways:`  Insensitive to negative prompt; generating stable results regardless of whether the steps are large or small; better results at low step regime.
+  - `Methods:` 
+    - Original DDPM: learns the changes from t to t−1.
+    - CM & LCM: learn the changes from t to 0. During inference, the multi-step sampling method involves adding noise x0 each time after obtaining x0​, and then denoising it. The biggest drawback is that increasing the number of steps does not yield better results.
+    - CTM: learns the changes from any t to t′. During inference, the multi-step sampling is similar to DDPM.
+    - PCM: learning the changes from any t to t′ is redundant. Instead, it discretizes the time steps into segments and enforces consistency constraints within each segment.
+
+### EM Distillation for One-step Diffusion Models `[2024.05]` \[[paper](https://arxiv.org/abs/2405.16852)\]
+
+### Large Kernel Distillation Network for Efficient Single Image Super-Resolution `[2024.07]` `[CVPRW 2023]` \[[paper](https://arxiv.org/abs/2407.14340)\] \[[code](https://github.com/stella-von/LKDN )\]
+
+### One-Step Effective Diffusion Network for Real-World Image Super-Resolution `[2024.06]` \[[paper](https://arxiv.org/abs/2406.08177)\] \[[code](https://github.com/cswry/OSEDiff)\]
+
 
 # Controllable Generation
 
