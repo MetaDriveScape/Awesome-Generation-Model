@@ -12,7 +12,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
   - [Training-free Long Video Generation with Chain of Diffusion Model Experts](#training-free-long-video-generation-with-chain-of-diffusion-model-experts)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13423)\] \[[code](https://confiner2025.github.io/)\]
   - [CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer](#cogvideox-text-to-video-diffusion-models-with-an-expert-transformer)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.06072)\] \[[code](https://github.com/THUDM/CogVideo)\]
   - [xGen-VideoSyn-1: High-fidelity Text-to-Video Synthesis with Compressed Representations](#xgen-videosyn-1-high-fidelity-text-to-video-synthesis-with-compressed-representations)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.12590)\] 
-
+  - [OD-VAE: An Omni-dimensional Video Compressor for Improving Latent Video Diffusion Model](#od-vae-an-omni-dimensional-video-compressor-for-improving-latent-video-diffusion-model)`[VAE]` `[2024.09]`\[[paper](https://arxiv.org/abs/2409.01199)\] \[[code](https://github.com/PKU-YuanGroup/Open-Sora-Plan)\]
 - 📌[Controllable Generation](#ControllableGeneration)
 - 📌[Multiview Generation](#MultiviewGeneration)
   - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
@@ -132,6 +132,10 @@ Long Video Generation: Building on ConFiner, ConFiner-Long uses strategies like 
     - `Metrics:` Human Action, Scene, Dynamic Degree, Multiple Objects, and Appearance Style from Vbench, Dynamic Quality from Devil, and GPT4o-MTScore from ChronoMagic
     </details>
 -   `Summay`:They leverage a 3D VAE and an Expert Transformer architecture to generate coherent long-duration videos with significant motion. Mixed-duration training and resolution progressive training further enhance the model’s performance and stability.
+
+### OD-VAE: An Omni-dimensional Video Compressor for Improving Latent Video Diffusion Model
+- `Keypoints:` Latent Video Diffusion Model, VAE
+- `Key Takeaways:`OD-VAE can reconstruct video accurately with additional temporal compres by strong 3D-Causal-CNN architecture. They propose a novel tail initialization to exploit the weight of SD-VAE. Besides, they propose novel temporal tiling, a split but one-frame overlap inference strategy, enabling OD-VAE to handle videos of arbitrary length with limited GPU memory.
 
 # HighFidelty
 ### DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents
