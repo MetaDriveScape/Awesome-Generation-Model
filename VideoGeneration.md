@@ -5,7 +5,14 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 
 ## Table of Contents
 - 📌[Long Video Genaration](#LongVideoGenaration)
-  - 🔧[MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences](#moviedreamer-hierarchical-generation-for-coherent-long-visual-sequences)`[LLM]` `[2024.07]` \[[paper](https://arxiv.org/abs/2407.16655)\] \[[code](https://aim-uofa.github.io/MovieDreamer/)\]
+  - [MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences](#moviedreamer-hierarchical-generation-for-coherent-long-visual-sequences)`[LLM]` `[2024.07]` \[[paper](https://arxiv.org/abs/2407.16655)\] \[[code](https://aim-uofa.github.io/MovieDreamer/)\]
+  - [StoryDiffusion: Consistent Self-Attention for Long-Range Image and Video Generation](#storydiffusion-consistent-self-attention-for-long-range-image-and-video-generation)`[SD]` `[2024.05]`\[[paper](https://arxiv.org/abs/2405.01434)\] \[[code](https://github.com/HVision-NKU/StoryDiffusion)\]
+  - [MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model](#mofa-video-controllable-image-animation-via-generative-motion-field-adaptions-in-frozen-image-to-video-diffusion-model)`[SD]` `[2024.05]`\[[paper](https://arxiv.org/abs/2405.20222)\] \[[code](https://github.com/MyNiuuu/MOFA-Video)\]
+  - [ViD-GPT: Introducing GPT-style Autoregressive Generation in Video Diffusion Models](#vid-gpt-introducing-gpt-style-autoregressive-generation-in-video-diffusion-models)`[SD]` `[2024.06]`\[[paper](https://arxiv.org/abs/2406.10981)\] \[[code](https://github.com/Dawn-LX/Causal-VideoGen)\]
+  - [Training-free Long Video Generation with Chain of Diffusion Model Experts](#training-free-long-video-generation-with-chain-of-diffusion-model-experts)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13423)\] \[[code](https://confiner2025.github.io/)\]
+  - [CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer](#cogvideox-text-to-video-diffusion-models-with-an-expert-transformer)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.06072)\] \[[code](https://github.com/THUDM/CogVideo)\]
+  - [xGen-VideoSyn-1: High-fidelity Text-to-Video Synthesis with Compressed Representations](#xgen-videosyn-1-high-fidelity-text-to-video-synthesis-with-compressed-representations)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.12590)\] 
+
 - 📌[Controllable Generation](#ControllableGeneration)
 - 📌[Multiview Generation](#MultiviewGeneration)
   - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
@@ -46,6 +53,62 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 ### MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequences
 - `Keypoints:` autoencoder; diffusion; long-duration video generation;
 - `Key Takeaways:` a novel hierarchical framework that integrates the strengths of autoregressive models with diffusion-based rendering to pioneer long-duration video generation with intricate plot progressions and high visual fidelity.
+
+### StoryDiffusion: Consistent Self-Attention for Long-Range Image and Video Generation 
+`[SD]` `[2024.05]`\[[paper](https://arxiv.org/abs/2405.01434)\] \[[code](https://github.com/HVision-NKU/StoryDiffusion)\]
+- `Keypoints:` Long-time video generation; Consistency; Text contorl;
+- `Objective:` They focus on improve the consistency of the long video generation.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d9a62649-8236-449c-8ce5-62699d02f6d8" width="450" />
+</p>
+
+-   <details>
+    <summary>Details</summary>
+    
+    - `Method:` 1.Consistent Self-Attention: it can maintain the consistency of characters in a sequence of generated images for storytelling with high text controllability; 2.Semantic Motion Predictor: it can generate significantly more stable long-range video frames that can be easily upscaled to minutes.
+
+</details>
+
+### MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model 
+- `Keypoints:` contorlable video generation
+- `Objective:` interactive control the animation
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:` 
+    extract sparse motion information e.g optical flow
+    compelet the sparse motion information to dense information
+    extract frist frame feature by unet-like network
+    wrap the feature in each layer by the optical flow
+    add it to the corresponding layer to the frozen svd
+</details>
+
+### ViD-GPT: Introducing GPT-style Autoregressive Generation in Video Diffusion Models
+- `Keypoints:` Autoregressive, video diffusion, open-sora, long term generation
+- `Objective:` Using causal Transformers to generate long videos because it can support longer dependencies than bidirectional Transformers.
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:` 
+    - Based on Open-SORA (version 1.0 or lower), change all attentions to causal version, where the current frame depends only on past frames, enabling acceleration using qk cache technology.
+    - Frame as Prompt. Concatenate clean latents with noisy latents for forward pass. (In fact, this operation has been supported since OpenSORA 1.1 and later versions.)
+    - Frame Prompt Enhancement. inject extra reference through spatial attention layers to enhance the guidance to alleviate the quality degeneration duration autoregressive generation.
+</details>
+
+### Training-free Long Video Generation with Chain of Diffusion Model Experts
+- `Keypoints:`VideoGeneration/HighFidelity
+
+- `Objective:` This paper aimed at improving the efficiency and quality of video generation by decoupling the task into easier subtasks. The goal is to generate high-quality, coherent long videos while reducing computational costs and overcoming current limitations in video generation models.
+-   <details>
+    <summary>Details</summary>
+
+    - `Method:` 
+Decoupled Video Generation: The video generation process is divided into three subtasks—structure control, spatial refinement, and temporal refinement. Each subtask is handled by off-the-shelf diffusion model experts.
+Coordinated Denoising: A novel coordinated denoising strategy is proposed to allow multiple diffusion experts with different noise schedules to collaborate during video generation.
+Long Video Generation: Building on ConFiner, ConFiner-Long uses strategies like consistency initialization, motion coherence guidance, and staggered refinement to ensure smooth transitions between video segments for long video generation.
+</details>
+
 ### xGen-VideoSyn-1: High-fidelity Text-to-Video Synthesis with Compressed Representations
 - `Keypoints:` Text-to-Video, Diffusion Transformer
 - `Objective:`encoding each frame independently using an image VAE makes both training computationally very expensive and inference slow. reduce computation during long video encoding.
