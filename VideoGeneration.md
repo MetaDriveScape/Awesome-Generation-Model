@@ -59,13 +59,14 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 - `Keypoints:` Long-time video generation; Consistency; Text contorl;
 - `Objective:` They focus on improve the consistency of the long video generation.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d9a62649-8236-449c-8ce5-62699d02f6d8" width="450" />
-</p>
+
 
 -   <details>
     <summary>Details</summary>
     
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d9a62649-8236-449c-8ce5-62699d02f6d8" width="450" />
+</p>    
     - `Method:` 1.Consistent Self-Attention: it can maintain the consistency of characters in a sequence of generated images for storytelling with high text controllability; 2.Semantic Motion Predictor: it can generate significantly more stable long-range video frames that can be easily upscaled to minutes.
 
 </details>
