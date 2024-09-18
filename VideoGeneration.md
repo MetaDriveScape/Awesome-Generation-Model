@@ -36,7 +36,9 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
   - [CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers](#camvig-camera-aware-image-to-video-generation-with-multimodal-transformers)`[transformer]` `[2024.5]` `[preprint]`\[[paper](https://arxiv.org/pdf/2405.13195)\][]
   - [TrackGo: A Flexible and Efficient Method for Controllable Video Generation](#trackgo-a-flexible-and-efficient-method-for-controllable-video-generation)`[SVD]` `[2024.8]` `[preprint]`\[[paper](https://arxiv.org/pdf/2408.11475)\]\[[code](https://zhtjtcz.github.io/TrackGo-Page/#)\]
   - [SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](#sv3d-novel-multi-view-synthesis-and-3d-generation-from-a-single-image-using-latent-video-diffusion)`[SVD]` `[2024.3]` `[ECCV24]`\[[paper](https://arxiv.org/pdf/2403.12008)\]\[[code](https://github.com/Stability-AI/generative-models/tree/sv3d_gradio?tab=readme-ov-file)\]
-  
+- 📌[Multiview](#Multiview)
+  - [Customizing Text-to-Image Diffusion with Camera Viewpoint Control](#customizing-text-to-image-diffusion-with-camera-viewpoint-control)`[2024.4]` `[preprint]` \[[paper](https://arxiv.org/abs/2404.12333)\][[code](https://github.com/customdiffusion360/custom-diffusion360)\]
+  - [LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[2024.8]` `[preprint]` \[[paper](https://arxiv.org/abs/2408.13252)\][[code](https://ys-imtech.github.io/projects/LayerPano3D/)\]
   
 
 
@@ -248,3 +250,31 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 [SVD][2024.3][ECCV24]\[[paper](https://arxiv.org/pdf/2403.12008)\]\[[code](https://github.com/Stability-AI/generative-models/tree/sv3d_gradio?tab=readme-ov-file)\]
 - `Keypoints:` 3D Generation, SVD, multi-view image generation
 - `Key Takeaways:` camera pose(elevation e and azimuth a angles.): sinusoidal embedding->MLP->add to time embedding; combine static orbit(without camera pose cond) and dynamic orbit (with camera pose cond)
+- 
+
+
+
+
+# Multiview
+
+
+### Customizing Text-to-Image Diffusion with Camera Viewpoint Control
+
+* [2404.12333\] 
+* [paper](https://arxiv.org/abs/2404.12333)
+* [code](https://github.com/customdiffusion360/custom-diffusion360)
+
+- `Keypoints:`Camera control， Text-to-image，NeRF
+- `Key Takeaways:`  generate image with accurate camera view, by building a FeatureNeRF from object images and use it as a condition for diffusion
+
+
+
+### LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation
+* [2408.13252\]
+* [paper](https://arxiv.org/abs/2408.13252)
+* [code](https://ys-imtech.github.io/projects/LayerPano3D/)
+
+- `Keypoints:`VideoGeneration/MultiViewGeneration[Panorama]
+- `Key Takeaways:`  The approach provides valuable insights for extending diffusion to new domains  and simultaneously integrates many new technologies.
+
+
