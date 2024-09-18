@@ -11,7 +11,7 @@
     - 🔧[MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning](#megaFusion-extend-diffusion-models-towards-higher-resolution-image-generation-without-further-tuning)`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.11001)\] \[[code](https://haoningwu3639.github.io/MegaFusion)\]
 
 - 📌[MultiModal](#multi-modal )
-   - 🔧[SHOW-O: ONE SINGLE TRANSFORMER TO UNIFY MULTIMODAL UNDERSTANDING AND GENERATION](#show-o-one-single-transformer-to-unify-multimodal-understanding-and-generation)`[Transformer]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.12528)\] \[[code](https://github.com/showlab/Show-o)\] \[[paper analysis](More details can be in [here](https://mickeyding.github.io/post/UNIFY%20MULTIMODAL%20UNDERSTANDING%20AND%20GENERATION-lun-wen-fen-xi-%5BShow-o%5D.html))\]
+   - 🔧[SHOW-O: ONE SINGLE TRANSFORMER TO UNIFY MULTIMODAL UNDERSTANDING AND GENERATION](#show-o-one-single-transformer-to-unify-multimodal-understanding-and-generation)`[Transformer]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.12528)\] \[[code](https://github.com/showlab/Show-o)\] \[[paper analysis](https://mickeyding.github.io/post/UNIFY%20MULTIMODAL%20UNDERSTANDING%20AND%20GENERATION-lun-wen-fen-xi-%5BShow-o%5D.html)\]
 
      
 ## Controllable Generation
