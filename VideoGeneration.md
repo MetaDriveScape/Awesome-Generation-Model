@@ -12,8 +12,8 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 - 📌[High Fidelty](#HighFidelty)
   - [Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data](#Factorized-Dreamer-Training-A-High-Quality-Video-Generator-with-Limited-and-Low-Quality-Data) `[2024.07]`\[[paper](https://arxiv.org/abs/2408.13252)\]
 - 📌[Efficiency](#Efficiency)
-  - [Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition](#Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition) `[2024.05]` `[ICLR24]` \[[paper](https://arxiv.org/abs/2403.14148)\]
-  - [Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution](#Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution) `[2024.04]` `[AAAI24]` \[[paper](https://arxiv.org/abs/2404.10688)\] \[[code](https://github.com/Yuan-Yutao/ECDP)\]
+  - [Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition](#efficient-video-diffusion-models-via-content-frame-motion-latent-decomposition) `[2024.05]` `[ICLR24]` \[[paper](https://arxiv.org/abs/2403.14148)\]
+  - [Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution](#Efficient-Conditional-Diffusion-Model-with-Probability-Flow-Sampling-for-Image-Super-resolution) `[2024.04]` `[AAAI24]` \[[paper](https://arxiv.org/abs/2404.10688)\] \[[code](https://github.com/Yuan-Yutao/ECDP)\]
   - [T2V-Turbo: Breaking the Quality Bottleneck of Video Consistency Model with Mixed Reward Feedback](#T2V-Turbo:Breaking the Quality Bottleneck of Video Consistency Model with Mixed Reward Feedback) `[2024.05]` \[[paper](https://arxiv.org/abs/2405.18750)\] \[[code](https://github.com/Ji4chenLi/t2v-turbo)\]
   - [Phased Consistency Model](#Phased Consistency Model) `[2024.05]` \[[paper](https://arxiv.org/abs/2405.18407)\] \[[code](https://github.com/G-U-N/Phased-Consistency-Model/tree/master)\]
   - [EM Distillation for One-step Diffusion Models](#EM Distillation for One-step Diffusion Models) `[2024.05]` \[[paper](https://arxiv.org/abs/2405.16852)\]
@@ -157,7 +157,8 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 - `Key Takeaways:`a novel framework for full-view, explorable panoramic 3D scene generation from a single text prompt;The approach provides valuable insights for extending diffusion to new domains  and simultaneously integrates many new technologies.
 
 # Efficiency
-### Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition `[2024.05]` `[ICLR24]` \[[paper](https://arxiv.org/abs/2403.14148)\]
+### Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition  `[2024.05]` `[ICLR24]` \[[paper](https://arxiv.org/abs/2403.14148)\]
+
 ### Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution `[2024.04]` `[AAAI24]` \[[paper](https://arxiv.org/abs/2404.10688)\] \[[code](https://github.com/Yuan-Yutao/ECDP)\]
 - `Keypoints:` super-resolution
 - `Key Takeaways:`  improve the efficiency, quality and consistency of the super resolution
