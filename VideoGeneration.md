@@ -22,6 +22,8 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
   - [No-Training-No-Problem-Rethinking-Classifier-Free-Guidance-for-Diffusion-Models](#No-Training-No-Problem-Rethinking-Classifier-Free-Guidance-for-Diffusion-Models)`[2024.07]`\[[paper](https://arxiv.org/abs/2407.02687)\]
   - [VEnhancer: Generative Space-Time Enhancement for Video Generation](#VEnhancer-Generative-Space-Time-Enhancement-for-Video-Generation)`[2024.07]`\[[paper](https://arxiv.org/abs/2407.07667)\]
   - [Vista-A-Generalizable-Driving-World-Model-with-High-Fidelity-and-Versatile-Controllability](#Vista-A-Generalizable-Driving-World-Model-with-High-Fidelity-and-Versatile-Controllability)`[2024.07]`\[[paper](https://arxiv.org/abs/2405.17398)\]
+  - Pyramidal Flow Matching for Efficient Video Generative Modeling `[2024.10]`\[[paper](https://arxiv.org/abs/2410.05954)\] \[[code](https://github.com/jy0205/Pyramid-Flow)\]
+  - Movie Gen: A cast of Media Foundation Models `[2024.10]`\[[paper](https://ai.meta.com/static-resource/movie-gen-research-paper)\]
 - 📌[Efficiency](#Efficiency)
   - [Efficient Video Diffusion Models via Content-Frame Motion-Latent Decomposition](#efficient-video-diffusion-models-via-content-frame-motion-latent-decomposition) `[2024.05]` `[ICLR24]` \[[paper](https://arxiv.org/abs/2403.14148)\]
   - [Efficient Conditional Diffusion Model with Probability Flow Sampling for Image Super-resolution](#Efficient-Conditional-Diffusion-Model-with-Probability-Flow-Sampling-for-Image-Super-resolution) `[2024.04]` `[AAAI24]` \[[paper](https://arxiv.org/abs/2404.10688)\] \[[code](https://github.com/Yuan-Yutao/ECDP)\]
@@ -46,6 +48,9 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 - 📌[Multiview](#Multiview)
   - [Customizing Text-to-Image Diffusion with Camera Viewpoint Control](#customizing-text-to-image-diffusion-with-camera-viewpoint-control)`[2024.4]` `[preprint]` \[[paper](https://arxiv.org/abs/2404.12333)\][[code](https://github.com/customdiffusion360/custom-diffusion360)\]
   - [LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[2024.8]` `[preprint]` \[[paper](https://arxiv.org/abs/2408.13252)\][[code](https://ys-imtech.github.io/projects/LayerPano3D/)\]
+  - [From Bird's-Eye to Street View: Crafting Diverse and Condition-Aligned Images with Latent Diffusion Model]
+  - [DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes]
+  - [SubjectDrive: Scaling Generative Data in Autonomous Driving via Subject Control]
   
 
 
