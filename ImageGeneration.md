@@ -14,3 +14,6 @@
 
 ### 📌Autoregressive Generation
 - DART: DENOISING AUTOREGRESSIVE TRANSFORMER FOR SCALABLE TEXT-TO-IMAGE GENERATION `[SD+AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.08159)\]
+
+### 📌Long Video Generation
+- Progressive Autoregressive Video Diffusion Models `[SD+AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.08151)\]
