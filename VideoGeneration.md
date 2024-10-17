@@ -13,6 +13,8 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
   - [CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer](#cogvideox-text-to-video-diffusion-models-with-an-expert-transformer)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.06072)\] \[[code](https://github.com/THUDM/CogVideo)\]
   - [xGen-VideoSyn-1: High-fidelity Text-to-Video Synthesis with Compressed Representations](#xgen-videosyn-1-high-fidelity-text-to-video-synthesis-with-compressed-representations)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.12590)\] 
   - [OD-VAE: An Omni-dimensional Video Compressor for Improving Latent Video Diffusion Model](#od-vae-an-omni-dimensional-video-compressor-for-improving-latent-video-diffusion-model)`[VAE]` `[2024.09]`\[[paper](https://arxiv.org/abs/2409.01199)\] \[[code](https://github.com/PKU-YuanGroup/Open-Sora-Plan)\]
+  - Progressive Autoregressive Video Diffusion Models `[SD+AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.08151)\]
+
 - 📌[Controllable Generation](#ControllableGeneration)
 - 📌[Multiview Generation](#MultiviewGeneration)
   - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
