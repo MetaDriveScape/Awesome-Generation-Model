@@ -16,5 +16,5 @@
 ### 📌Autoregressive Generation
 - DART: DENOISING AUTOREGRESSIVE TRANSFORMER FOR SCALABLE TEXT-TO-IMAGE GENERATION `[SD+AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.08159)\]
 
-### 📌Efficency 
+### 📌Efficiency 
 - Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think `[DiT]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.06940)\]
