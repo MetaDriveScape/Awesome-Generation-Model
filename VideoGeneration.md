@@ -14,6 +14,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
   - [xGen-VideoSyn-1: High-fidelity Text-to-Video Synthesis with Compressed Representations](#xgen-videosyn-1-high-fidelity-text-to-video-synthesis-with-compressed-representations)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.12590)\] 
   - [OD-VAE: An Omni-dimensional Video Compressor for Improving Latent Video Diffusion Model](#od-vae-an-omni-dimensional-video-compressor-for-improving-latent-video-diffusion-model)`[VAE]` `[2024.09]`\[[paper](https://arxiv.org/abs/2409.01199)\] \[[code](https://github.com/PKU-YuanGroup/Open-Sora-Plan)\]
   - Progressive Autoregressive Video Diffusion Models `[SD+AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.08151)\]
+  - Loong: Generating Minute-level Long Videos with Autoregressive Language Models `[AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.02757)\]
 
 - 📌[Controllable Generation](#Controllable-Generation)
   - [Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models](#cinemo-consistent-and-controllable-image-animation-with-motion-diffusion-models) `[DiT]` `[2024.7]` `[preprint]` \[[paper](https://arxiv.org/pdf/2407.07860)\]\[[code](https://4d-diffusion.github.io)\]
