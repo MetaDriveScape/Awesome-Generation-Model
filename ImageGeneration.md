@@ -1,7 +1,8 @@
 
 # Image Generation
 ### 📌Controllable Generation
-- ControlNeXt: Powerful and Efficient Control for Image and Video Generation`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.06070)\] \[[code](https://github.com/dvlab-research/ControlNeXt)\] 
+- ControlNeXt: Powerful and Efficient Control for Image and Video Generation`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.06070)\] \[[code](https://github.com/dvlab-research/ControlNeXt)\]
+- Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models `[SD]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.02416)\]
 
 ### 📌Super Resolution
 - MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.11001)\] \[[code](https://haoningwu3639.github.io/MegaFusion)\]
@@ -18,3 +19,4 @@
 
 ### 📌Efficiency 
 - Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think `[DiT]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.06940)\]
+- SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformers `[DiT]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.10629)\]
