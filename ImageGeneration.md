@@ -16,7 +16,7 @@
 
 ### 📌Autoregressive Generation
 - DART: DENOISING AUTOREGRESSIVE TRANSFORMER FOR SCALABLE TEXT-TO-IMAGE GENERATION `[SD+AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.08159)\]
-
+- Fluid: Scaling Autoregressive Text-to-image Generative Models with Continuous Tokens `[AR]` `[2024.10]` \[[paper](https://arxiv.org/pdf/2410.13863)\]
 ### 📌Efficiency 
 - Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think `[DiT]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.06940)\]
 - SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformers `[DiT]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.10629)\]
