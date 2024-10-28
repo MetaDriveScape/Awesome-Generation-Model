@@ -3,6 +3,8 @@
 ### 📌Controllable Generation
 - ControlNeXt: Powerful and Efficient Control for Image and Video Generation`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.06070)\] \[[code](https://github.com/dvlab-research/ControlNeXt)\]
 - Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models `[SD]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.02416)\]
+- Improving Long-Text Alignment for Text-to-Image Diffusion Models`[SD]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.11817)\] \[[code](https://github.com/luping-liu/LongAlign)\]
+- Diversity-Rewarded CFG Distillation `[2024.08]` \[[paper](https://arxiv.org/abs/2410.06084)\]
 
 ### 📌Super Resolution
 - MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.11001)\] \[[code](https://haoningwu3639.github.io/MegaFusion)\]
