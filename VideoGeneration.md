@@ -56,6 +56,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
   - [From Bird's-Eye to Street View: Crafting Diverse and Condition-Aligned Images with Latent Diffusion Model]
   - [DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes]
   - [SubjectDrive: Scaling Generative Data in Autonomous Driving via Subject Control]
+  - [FreeVS: Generative View Synthesis on Free Driving Trajectory]`[2024.10]` \[[paper](https://arxiv.org/pdf/2410.18079)\] \[[code](https://freevs24.github.io/)\]
   
 
 
