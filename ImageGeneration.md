@@ -25,3 +25,4 @@
 - Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think `[DiT]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.06940)\]
 - SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformers `[DiT]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.10629)\]
 - RECTIFIED DIFFUSION: STRAIGHTNESS IS NOT YOUR NEED IN RECTIFIED FLOW `[SD]` `[2024.10]` \[[paper](https://arxiv.org/pdf/2410.07303)\]
+- Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models `[CM]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.11081)\]
