@@ -26,5 +26,5 @@
 - RECTIFIED DIFFUSION: STRAIGHTNESS IS NOT YOUR NEED IN RECTIFIED FLOW `[SD]` `[2024.10]` \[[paper](https://arxiv.org/pdf/2410.07303)\]
 - Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models `[CM]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.11081)\]
 
-### 📌Dataset expansion
+### 📌Dataset Expansion
 - Scalable Ranked Preference Optimization for Text-to-Image Generation `[SD]` `[2024.10]` \[[paper](https://arxiv.org/pdf/2410.18013)\]
