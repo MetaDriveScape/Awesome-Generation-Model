@@ -6,6 +6,7 @@
 - Improving Long-Text Alignment for Text-to-Image Diffusion Models`[SD]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.11817)\] \[[code](https://github.com/luping-liu/LongAlign)\]
 - Diversity-Rewarded CFG Distillation `[2024.08]` \[[paper](https://arxiv.org/abs/2410.06084)\]
 - InstanceDiffusion:Instance-level Control for Image Generation`[SD]` `[2024.02]` \[[paper](https://arxiv.org/abs/2402.03290)\] \[[code](https://github.com/frank-xwang/InstanceDiffusion)\]
+- IFAdapter: Instance feature control for grounded Text-to-Image Generation `[SD]` `[2024.09]` \[[paper](https://arxiv.org/abs/2409.08240)\]
 
 ### 📌Super Resolution
 - MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.11001)\] \[[code](https://haoningwu3639.github.io/MegaFusion)\]
