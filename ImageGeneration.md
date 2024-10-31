@@ -16,7 +16,6 @@
 - MONOFORMER: ONE TRANSFORMER FOR BOTH DIFFUSION AND AUTOREGRESSION `[SD+AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2409.16280)\] \[[code](https://github.com/MonoFormer/MonoFormer)\] \[[paper analysis](https://mickeyding.github.io/post/%E3%80%90-lun-wen-yue-du-%E3%80%91MONOFORMER-%20ONE%20TRANSFORMER%20FOR%20BOTH%20DIFFUSION%20AND%20AUTOREGRESSION.html)\]
 - SHOW-O: ONE SINGLE TRANSFORMER TO UNIFY MULTIMODAL UNDERSTANDING AND GENERATION `[SD+AR]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.12528)\] \[[code](https://github.com/showlab/Show-o)\] \[[paper analysis](https://mickeyding.github.io/post/%E3%80%90-lun-wen-yue-du-%E3%80%91Show-o-%20ONE%20SINGLE%20TRANSFORMER%20TO%20UNIFY%20MULTIMODAL%20UNDERSTANDING%20AND%20GENERATION.html)\] 
   
-     
 
 ### 📌Autoregressive Generation
 - DART: DENOISING AUTOREGRESSIVE TRANSFORMER FOR SCALABLE TEXT-TO-IMAGE GENERATION `[SD+AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.08159)\]
@@ -26,3 +25,6 @@
 - SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformers `[DiT]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.10629)\]
 - RECTIFIED DIFFUSION: STRAIGHTNESS IS NOT YOUR NEED IN RECTIFIED FLOW `[SD]` `[2024.10]` \[[paper](https://arxiv.org/pdf/2410.07303)\]
 - Simplifying, Stabilizing and Scaling Continuous-Time Consistency Models `[CM]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.11081)\]
+
+### Dataset expansion
+- Scalable Ranked Preference Optimization for Text-to-Image Generation `[SD]` `[2024.10]` \[[paper](https://arxiv.org/pdf/2410.18013)\]
