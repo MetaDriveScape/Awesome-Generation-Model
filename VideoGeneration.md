@@ -49,7 +49,9 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
   - [EM Distillation for One-step Diffusion Models](#EM-Distillation-for-One-step-Diffusion-Models) `[2024.05]` \[[paper](https://arxiv.org/abs/2405.16852)\]
   - [Large Kernel Distillation Network for Efficient Single Image Super-Resolution](#Large-Kernel-Distillation-Network-for-Efficient-Single-Image-Super-Resolution) `[2024.07]` `[CVPRW 2023]` \[[paper](https://arxiv.org/abs/2407.14340)\] \[[code](https://github.com/stella-von/LKDN )\]
   - [One-Step Effective Diffusion Network for Real-World Image Super-Resolution](#One-Step-Effective-Diffusion-Network-for-Real-World-Image-Super-Resolution) `[2024.06]` \[[paper](https://arxiv.org/abs/2406.08177)\] \[[code](https://github.com/cswry/OSEDiff)\]
-
+  - [Adaptive Caching for Faster Video Generation with Diffusion Transformers]`[2024.11]` \[[paper](https://arxiv.org/abs/2411.02397)\] \[[code](https://github.com/AdaCache-DiT/AdaCache)\]
+  - [REDUCIO! Generating 1024×1024 Video within 16 Seconds using Extremely Compressed Motion Latents] `[2024.11]` \[[paper](https://arxiv.org/abs/2411.13552)\] \[[code](https://github.com/microsoft/Reducio-VAE)]
+  
 - 📌[Multiview](#Multiview)
   - [Customizing Text-to-Image Diffusion with Camera Viewpoint Control](#customizing-text-to-image-diffusion-with-camera-viewpoint-control)`[2024.4]` `[preprint]` \[[paper](https://arxiv.org/abs/2404.12333)\][[code](https://github.com/customdiffusion360/custom-diffusion360)\]
   - [LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[2024.8]` `[preprint]` \[[paper](https://arxiv.org/abs/2408.13252)\][[code](https://ys-imtech.github.io/projects/LayerPano3D/)\]
