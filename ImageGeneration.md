@@ -30,3 +30,6 @@
 
 ### 📌Dataset Expansion
 - Scalable Ranked Preference Optimization for Text-to-Image Generation `[SD]` `[2024.10]` \[[paper](https://arxiv.org/pdf/2410.18013)\]
+
+### 📌High-Fidelity Generation
+- Edify Image: High-Quality Image Generation with Pixel Space Laplacian Diffusion Models `[SD]` `[2024.11]` \[[paper](https://arxiv.org/pdf/2411.07126)\]
