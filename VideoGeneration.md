@@ -33,9 +33,6 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
   - [TrackGo: A Flexible and Efficient Method for Controllable Video Generation](#trackgo-a-flexible-and-efficient-method-for-controllable-video-generation)`[SVD]` `[2024.8]` `[preprint]`\[[paper](https://arxiv.org/pdf/2408.11475)\]\[[code](https://zhtjtcz.github.io/TrackGo-Page/#)\]
   - [SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](#sv3d-novel-multi-view-synthesis-and-3d-generation-from-a-single-image-using-latent-video-diffusion)`[SVD]` `[2024.3]` `[ECCV24]`\[[paper](https://arxiv.org/pdf/2403.12008)\]\[[code](https://github.com/Stability-AI/generative-models/tree/sv3d_gradio?tab=readme-ov-file)\]
   - [DREAMVIDEO-2: ZERO-SHOT SUBJECT-DRIVEN VIDEO CUSTOMIZATION WITH PRECISE MOTION CONTROL](#DREAMVIDEO-2-ZERO-SHOT-SUBJECT-DRIVEN-VIDEO-CUSTOMIZATION-WITH-PRECISE-MOTION-CONTROL)`[SVD]` `[2024.10]` \[[paper](https://arxiv.org/pdf/2403.12008)\]\[[project page](https://dreamvideo2.github.io/)\]
-
-- 📌[Multiview Generation](#MultiviewGeneration)
-  - 🔧[LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation](#layerpano3d-layered-3d-panorama-for-hyper-immersive-scene-generation)`[SD]` `[2024.08]`\[[paper](https://arxiv.org/abs/2408.13252)\] \[[code](https://github.com/3DTopia/LayerPano3D)\]
 - 📌[High Fidelty](#HighFidelty)
   - [Factorized-Dreamer: Training A High-Quality Video Generator with Limited and Low-Quality Data](#Factorized-Dreamer-Training-A-High-Quality-Video-Generator-with-Limited-and-Low-Quality-Data)`[2024.07]`\[[paper](https://arxiv.org/abs/2408.13252)\]
   - [DisCo-Diff: Enhancing Continuous Dif969272fusion Models with Discrete Latents](#DisCo-Diff-Enhancing-Continuous-Diffusion-Models-with-Discrete-Latents)`[2024.07]`\[[paper](https://arxiv.org/abs/2407.03300)\]
