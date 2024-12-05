@@ -10,6 +10,8 @@
 - Taming Rectified Flow for Inversion and Editing `[DIT]` `[2024.11]` \[[paper](https://arxiv.org/abs/2411.04746)\] \[[code](https://github.com/wangjiangshan0725/RF-Solver-Edit)\]
 - OminiControl: Minimal and Universal Control for Diffusion Transformer `[DIT]` `[2024.11]` \[[paper](https://arxiv.org/abs/2411.15089)\] \[[code](https://github.com/Yuanshi9815/OminiControl)\]
 - Taming Rectified Flow for Inversion and Editing `[SD]` `[2024.11]` \[[paper](https://arxiv.org/abs/2411.17949)\]
+- Diffusion Self-Distillation for Zero-Shot Customized Image Generation `[DIT]` `[2024.11]` \[[paper](https://arxiv.org/abs/2411.18616)\]
+- On Inductive Biases That Enable Generalization of Diffusion Transformers `[DIT]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.21273)\] \[[code](https://github.com/DiT-Generalization/DiT-Generalization)\]
 
 ### 📌Super Resolution
 - MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.11001)\] \[[code](https://haoningwu3639.github.io/MegaFusion)\]
