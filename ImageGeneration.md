@@ -1,6 +1,7 @@
 
 # Image Generation
 ### 📌Controllable Generation
+- [MAGICTAILOR:COMPONENT-CONTROLLABLE PERSONALIZATION IN TEXT-TO-IMAGE DIFFUSION MODELS](#MAGICTAILOR-COMPONENT-CONTROLLABLE-PERSONALIZATION-IN-TEXT-TO-IMAGE-DIFFUSION-MODELS) `[DiT]` `[2024.07]` `[preprint]` \[[project page](https://correr-zhou.github.io/MagicTailor/)\]\[[code](https://github.com/correr-zhou/MagicTailor)\]\
 - ControlNeXt: Powerful and Efficient Control for Image and Video Generation`[SD]` `[2024.08]` \[[paper](https://arxiv.org/abs/2408.06070)\] \[[code](https://github.com/dvlab-research/ControlNeXt)\]
 - Eliminating Oversaturation and Artifacts of High Guidance Scales in Diffusion Models `[SD]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.02416)\]
 - Improving Long-Text Alignment for Text-to-Image Diffusion Models`[SD]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.11817)\] \[[code](https://github.com/luping-liu/LongAlign)\]
