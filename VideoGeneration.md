@@ -61,3 +61,6 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
 ### 📌Reconstruction
 - DriveDreamer4D: World Models Are Effective Data Machines for 4D Driving Scene Representation `[4DGS]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.13571)\] `DriveDreamer4D leverages world models priors to generate diverse viewpoint data, enhancing the 4D scene representation`
 
+### 📌End2End Autonomous Driving
+- DiffusionDrive: Truncated Diffusion Model for End-to-End Autonomous Driving  `[2024.12]` \[[paper](https://arxiv.org/pdf/2411.15139)\] \[[paper_analysis](https://mickeyding.github.io/post/%E3%80%90-lun-wen-yue-du----duan-dao-duan-zi-dong-jia-shi-%E3%80%91DiffusionDrive-%20Truncated%20Diffusion%20Model%20for%20End-to-End%20Autonomous%20Driving.html)\]  `They propose a novel truncated diffusion policy that incorporates prior multi-mode anchors and truncates the diffusion schedule, enabling the model to learn denoising from anchored Gaussian distribution to the multi-mode driving action distribution`
+
