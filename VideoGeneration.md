@@ -15,7 +15,7 @@ Analysis of Latest Weekly Papers on **Video Generation** including 5 aspects: **
   - [OD-VAE: An Omni-dimensional Video Compressor for Improving Latent Video Diffusion Model](#od-vae-an-omni-dimensional-video-compressor-for-improving-latent-video-diffusion-model)`[VAE]` `[2024.09]`\[[paper](https://arxiv.org/abs/2409.01199)\] \[[code](https://github.com/PKU-YuanGroup/Open-Sora-Plan)\]
   - Progressive Autoregressive Video Diffusion Models `[SD+AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.08151)\]
   - Loong: Generating Minute-level Long Videos with Autoregressive Language Models `[AR]` `[2024.10]` \[[paper](https://arxiv.org/abs/2410.02757)\]
-  - SlowFast-VGen：Slow-Fast Learning for Action-Conditioned Long Video Generation `[AR]` `[2024.11]` \[[paper](https://arxiv.org/abs/2410.23277)\] \[[Project](https://slowfast-vgen.github.io/)]
+  - SlowFast-VGen：Slow-Fast Learning for Action-Conditioned Long Video Generation `[SD]` `[2024.11]` \[[paper](https://arxiv.org/abs/2410.23277)\] \[[Project](https://slowfast-vgen.github.io/)]
 - 📌[Controllable Generation](#Controllable-Generation)
   - [AC3D: Analyzing and Improving 3D Camera Control in Video Diffusion Transformers](#AC3D-Analyzing-and-Improving-3D-Camera-Control-in-Video-Diffusion-Transformers) `[DiT]` `[2024.11]` `[preprint]` \[[paper](https://arxiv.org/pdf/2407.07860)\]\[[project page](https://snap-research.github.io/ac3d/)\]
   - [MagicDriveDiT: High-Resolution Long Video Generation for Autonomous Driving with Adaptive Control](#MagicDriveDiT-High-Resolution-Long-Video-Generation-for-Autonomous-Driving-with-Adaptive-Control) `[DiT]` `[2024.11]` `[preprint]` \[[paper](https://arxiv.org/abs/2411.13807)\]\[[code](https://github.com/flymin/MagicDriveDiT)\]
